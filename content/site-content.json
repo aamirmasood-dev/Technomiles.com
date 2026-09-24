@@ -837,6 +837,18 @@
         "title": "Message received.",
         "text": "Thanks for reaching out — we'll be in touch shortly to book your free consultation.",
         "again": "Send another"
+      },
+      "mailto": {
+        "subject": "Project enquiry",
+        "title": "Almost done.",
+        "text": "We've opened your email app with your message filled in — just press send. If nothing opened, email us directly at",
+        "labels": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "service": "Service",
+          "message": "Message"
+        }
       }
     },
     "info": {

@@ -3,10 +3,12 @@ import { company, type Service } from "@/content";
 import { SITE_URL } from "./routes";
 
 export const SITE_NAME = company.name;
-const OG_IMAGE = { url: "/opengraph-image", width: 1200, height: 630, alt: `${company.name} — Digital Agency` };
+const OG_IMAGE = { url: "/og-image.png", width: 1200, height: 630, alt: `${company.name} — Digital Agency` };
 
 /** Per-page metadata with canonical URL + Open Graph. */
 export function pageMetadata({ title, description, path }: { title: string; description: string; path: string }): Metadata {
+  // trailingSlash export: pages live at /about/ etc.
+  path = path === "/" ? path : `${path.replace(/\/$/, "")}/`;
   return {
     title,
     description,
@@ -45,7 +47,7 @@ export function serviceJsonLd(svc: Service) {
     "@type": "Service",
     name: svc.title,
     description: svc.lead,
-    url: `${SITE_URL}${svc.route}`,
+    url: `${SITE_URL}${svc.route}/`,
     provider: { "@id": `${SITE_URL}/#organization` },
     areaServed: company.markets,
     hasOfferCatalog: {

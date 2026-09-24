@@ -155,6 +155,13 @@ export interface ContactPageContent {
     sending: string;
     errors: { name: string; email: string; phone: string; message: string; generic: string };
     success: { title: string; text: string; again: string };
+    /** Shown when no form endpoint is configured and the enquiry is handed to the visitor's email app. */
+    mailto: {
+      subject: string;
+      title: string;
+      text: string;
+      labels: { name: string; email: string; phone: string; service: string; message: string };
+    };
   };
   info: { email: string; phone: string; office: string; hours: string; hoursValue: string };
   map: { label: string; title: string; sub: string; link: string; embedQuery: string };

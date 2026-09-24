@@ -1,6 +1,6 @@
 import { contactPage, services } from "@/content";
 
-/** Shared by the contact form (instant feedback) and the Server Action (authoritative). */
+/** Contact-form validation (the site is a static export, so this runs in the browser). */
 
 export const CONTACT_FIELDS = ["name", "email", "phone", "service", "message"] as const;
 export type ContactField = (typeof CONTACT_FIELDS)[number];
@@ -12,12 +12,11 @@ export const HONEYPOT = "website";
 
 export const SERVICE_OPTIONS = [contactPage.form.fields.service.default, ...services.map((s) => s.title)];
 
-export interface ContactState {
-  status: "idle" | "error" | "success";
-  errors?: ContactErrors;
-  values?: ContactValues;
-  message?: string;
-}
+/**
+ * Optional form backend (e.g. Formspree, Web3Forms, a Zoho Forms webhook) that accepts a JSON POST.
+ * Without it, submissions open the visitor's email app pre-filled to the company address.
+ */
+export const FORM_ENDPOINT = process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? "";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_RE = /^\+?[\d\s()\-.]{7,20}$/;

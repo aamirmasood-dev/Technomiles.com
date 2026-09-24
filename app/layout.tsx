@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: { default: `${company.name} — Digital Agency`, template: `%s — ${company.name}` },
   description: footer.tagline,
   applicationName: company.name,
-  openGraph: { siteName: company.name, type: "website", locale: "en_GB" },
+  openGraph: { siteName: company.name, type: "website", locale: "en_GB", images: [{ url: "/og-image.png", width: 1200, height: 630 }] },
 };
 
 // theme-color is rendered manually in <head> (one meta per theme, toggled by ThemeToggle).
