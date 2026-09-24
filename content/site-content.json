@@ -1,0 +1,1932 @@
+{
+  "company": {
+    "name": "Technomiles",
+    "email": "info@technomiles.com",
+    "phones": [
+      "+92 334 547 2255",
+      "+92 345 868 2581",
+      "+92 51 8748 426"
+    ],
+    "address": "Office No 3, Third Floor, 61-E, Usman Plaza, Commercial Area, Chaklala Scheme III, Rawalpindi, Pakistan",
+    "addressShort": "Usman Plaza, Rawalpindi",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Usman+Plaza+Chaklala+Scheme+III+Rawalpindi",
+    "markets": [
+      "Pakistan",
+      "United Kingdom",
+      "United States"
+    ],
+    "logo": "/logo-technomiles.png  (PLACEHOLDER — add the original logo file to /public)"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services/custom-development",
+      "dropdown": true
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footer": {
+    "tagline": "Software, e-commerce, design and marketing — one team turning ideas into products.",
+    "company": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About us",
+        "href": "/about"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms-and-conditions"
+      },
+      {
+        "label": "Refund Policy",
+        "href": "/refund-policy"
+      }
+    ],
+    "copyright": "© 2026 Technomiles. All rights reserved."
+  },
+  "cta": {
+    "eyebrow": "GOT A PROJECT IN MIND?",
+    "title": "Let's build",
+    "titleAccent": "what's next.",
+    "ringText": "START A PROJECT · FREE CONSULTATION · ",
+    "ringLabel": "Start a project",
+    "emailLabel": "EMAIL",
+    "phoneLabel": "CALL / WHATSAPP",
+    "visitLabel": "VISIT"
+  },
+  "services": [
+    {
+      "slug": "custom-development",
+      "route": "/services/custom-development",
+      "number": "01",
+      "title": "Custom Development",
+      "accent": "#3FD0E0",
+      "tagline": "SOFTWARES THAT MAKE YOUR LIFE EASY",
+      "lead": "Business software shaped around the way you already work — ERP, LMS, POS and finance systems — plus fast, modern websites built on Next.js.",
+      "menuLine": "ERP, LMS, POS, finance systems and websites",
+      "homeCardText": "ERP, LMS, POS and finance systems shaped around how you work — plus fast Next.js websites.",
+      "included": [
+        {
+          "title": "Enterprise Resource Planning",
+          "text": "Inventory, purchasing, sales and HR in one system, so every team works from the same numbers."
+        },
+        {
+          "title": "Learning Management System",
+          "text": "Courses, video lessons, quizzes and student portals for schools, colleges and academies."
+        },
+        {
+          "title": "Point of Sale",
+          "text": "Fast checkout for shops and restaurants, with stock that updates the moment you sell."
+        },
+        {
+          "title": "Accounts & Finance",
+          "text": "Ledgers, invoices and expenses in one place, with reports ready when you need them."
+        },
+        {
+          "title": "Business & Portfolio Websites",
+          "text": "Fast, responsive websites that are easy to update and ready for search."
+        },
+        {
+          "title": "Desktop Software",
+          "text": "Windows applications for teams that need to work offline or on-site."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you build software around our existing process?",
+          "a": "Yes. We start by mapping how your team works today, then build the software to fit — not the other way round."
+        },
+        {
+          "q": "Do you build web apps, desktop software, or both?",
+          "a": "Both. We build browser-based systems, desktop applications and websites — whichever suits how your team works."
+        },
+        {
+          "q": "Who owns the source code?",
+          "a": "[Confirm your code-ownership terms — e.g. the client owns the source code once the final invoice is paid.]"
+        }
+      ],
+      "faqTitle": "Development questions."
+    },
+    {
+      "slug": "ecommerce",
+      "route": "/services/ecommerce",
+      "number": "02",
+      "title": "E-commerce",
+      "accent": "#F5B544",
+      "tagline": "GET YOUR BUSINESS ONLINE TO UNLOCK THE ENDLESS OPPORTUNITIES",
+      "lead": "We build your online store and run your marketplace accounts — Shopify, WooCommerce, Amazon, eBay and Walmart — from listings to orders to growth.",
+      "menuLine": "Shopify, WooCommerce, Amazon, eBay, Walmart",
+      "homeCardText": "Stores built and marketplaces managed end to end — listings, pricing, orders and growth.",
+      "included": [
+        {
+          "title": "Shopify Stores",
+          "text": "Store setup, theme design, apps and product catalogues, ready to sell from day one."
+        },
+        {
+          "title": "WordPress WooCommerce",
+          "text": "Flexible WooCommerce stores built on WordPress, with only the plugins you need."
+        },
+        {
+          "title": "Amazon, eBay & Walmart",
+          "text": "Account setup and day-to-day management: listings, pricing, orders and performance."
+        },
+        {
+          "title": "Payment Solutions",
+          "text": "Secure checkout and payment-gateway setup for your store."
+        },
+        {
+          "title": "Product Listings",
+          "text": "Titles, descriptions and images written to rank in search and convert browsers into buyers."
+        },
+        {
+          "title": "Store Management",
+          "text": "Ongoing store operations, so you can focus on sourcing and sales."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you manage our existing Amazon or eBay account?",
+          "a": "Yes. We can take over day-to-day management of an existing account or set up a new one from scratch."
+        },
+        {
+          "q": "Do you work with sellers outside Pakistan?",
+          "a": "Yes — we manage stores and marketplace accounts for sellers in the UK and the US."
+        },
+        {
+          "q": "How is store management priced?",
+          "a": "[Describe your pricing model — e.g. a monthly retainer or a share of sales.]"
+        }
+      ],
+      "faqTitle": "E-commerce questions."
+    },
+    {
+      "slug": "design-studio",
+      "route": "/services/design-studio",
+      "number": "03",
+      "title": "Design Studio",
+      "accent": "#F4F1EC",
+      "tagline": "VISUALS ARE ALWAYS THE ACTUAL REPRESENTATION OF ANY BUSINESS",
+      "lead": "Identity, print and motion that make your business instantly recognisable — online, on the shelf and on screen.",
+      "menuLine": "Branding, stationery, product photo and video",
+      "homeCardText": "Branding, stationery, product photos, video and animation that people remember.",
+      "included": [
+        {
+          "title": "Branding",
+          "text": "Logos, colour palettes, typography and brand guidelines that hold together everywhere."
+        },
+        {
+          "title": "Stationery Design",
+          "text": "Business cards, letterheads, envelopes and company profiles."
+        },
+        {
+          "title": "Product Photos",
+          "text": "Clean, consistent product photography for stores and marketplaces."
+        },
+        {
+          "title": "Product Videos",
+          "text": "Short product and promo videos for your store and social channels."
+        },
+        {
+          "title": "Animation",
+          "text": "Motion graphics and animated explainers that make ideas click."
+        },
+        {
+          "title": "Videography",
+          "text": "Shoots for brands, events and campaigns."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What do I get at the end of a branding project?",
+          "a": "[List your branding deliverables — e.g. logo files, colour and font guide, stationery set.]"
+        },
+        {
+          "q": "Can you shoot product photos for Amazon and Shopify?",
+          "a": "Yes — we produce product photos sized and styled for marketplace and store listings."
+        },
+        {
+          "q": "How many revisions are included?",
+          "a": "[Add your revision policy.]"
+        }
+      ],
+      "faqTitle": "Design questions."
+    },
+    {
+      "slug": "social-media-marketing",
+      "route": "/services/social-media-marketing",
+      "number": "04",
+      "title": "Social Media Marketing",
+      "accent": "#9B8CFF",
+      "tagline": "ENABLE THE BEST MARKETING STRATEGIES WITH THE WORLD’S LEADING PLATFORMS",
+      "lead": "Campaigns planned, run and reported by one team — across social media, Google, SMS and email.",
+      "menuLine": "Social, Google Ads, SMS and email campaigns",
+      "homeCardText": "Social, Google Ads, SMS and email campaigns planned and run by one team.",
+      "included": [
+        {
+          "title": "Campaign Strategy",
+          "text": "A plan built around your goals, audience and budget before any money is spent."
+        },
+        {
+          "title": "Social Media Management",
+          "text": "Content calendars, posting and community management across your channels."
+        },
+        {
+          "title": "Google Advertising",
+          "text": "Search and shopping campaigns set up and optimised for your budget."
+        },
+        {
+          "title": "SMS Marketing",
+          "text": "Offers and reminders delivered straight to your customers’ phones."
+        },
+        {
+          "title": "Email Marketing",
+          "text": "Newsletters and automated email journeys that bring customers back."
+        },
+        {
+          "title": "Content Creation",
+          "text": "Posts, graphics and short videos made with our Design Studio."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which platforms do you manage?",
+          "a": "Facebook, Instagram and other major social platforms, plus Google Ads, SMS and email. [Adjust to the platforms you cover.]"
+        },
+        {
+          "q": "Is ad spend included in your fee?",
+          "a": "[Explain whether the advertising budget is billed separately from your management fee.]"
+        },
+        {
+          "q": "How soon will we see results?",
+          "a": "[Set expectations for your typical timeline.]"
+        }
+      ],
+      "faqTitle": "Marketing questions."
+    },
+    {
+      "slug": "seo",
+      "route": "/services/seo",
+      "number": "05",
+      "title": "Search Engine Optimization",
+      "accent": "#B8F25A",
+      "tagline": "BE FOUND WHERE YOUR CUSTOMERS ARE SEARCHING",
+      "lead": "Rank higher for the searches that matter, with sites that are technically sound and content that earns the click.",
+      "menuLine": "Keyword, on-page, technical and local SEO",
+      "homeCardText": "Keyword, on-page, technical, local and marketplace SEO that climbs — and stays there.",
+      "included": [
+        {
+          "title": "Keyword Research",
+          "text": "Find the searches your customers actually make — and which ones you can win."
+        },
+        {
+          "title": "On-page SEO",
+          "text": "Titles, headings, content and internal links tuned for your target searches."
+        },
+        {
+          "title": "Technical SEO",
+          "text": "Site speed, indexing, structured data and the fixes search engines care about."
+        },
+        {
+          "title": "Local SEO",
+          "text": "Google Business Profile and local listings, so nearby customers find you first."
+        },
+        {
+          "title": "Marketplace SEO",
+          "text": "Listing optimisation for Amazon, eBay and Walmart search."
+        },
+        {
+          "title": "SEO Content",
+          "text": "Blog posts and pages written for search engines and for people."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does SEO take to work?",
+          "a": "SEO builds over months, not days. [Add your typical timeline.]"
+        },
+        {
+          "q": "Do you guarantee first-page rankings?",
+          "a": "[State your policy on ranking guarantees.]"
+        },
+        {
+          "q": "Can you optimise our Amazon or eBay listings?",
+          "a": "Yes — marketplace listing optimisation is part of our SEO and e-commerce work."
+        }
+      ],
+      "faqTitle": "SEO questions."
+    }
+  ],
+  "home": {
+    "heroRotatingWords": [
+      "apps.",
+      "stores.",
+      "brands.",
+      "campaigns.",
+      "rankings."
+    ],
+    "heroSub": "Software, online stores, brands and campaigns — designed, built and grown by one team in Rawalpindi.",
+    "intro": "Technomiles is a digital agency that turns ideas into products people use. We build custom software and fast websites, run online stores, design memorable brands and grow them with marketing and SEO — for clients in Pakistan, the UK and the US.",
+    "introHighlightWords": [
+      "SEO",
+      "brands",
+      "ideas",
+      "marketing",
+      "products",
+      "software",
+      "stores,"
+    ],
+    "facts": [
+      {
+        "value": "5",
+        "label": "services, one team",
+        "text": "Development, e-commerce, design, marketing and SEO under one roof."
+      },
+      {
+        "value": "3",
+        "label": "continents served",
+        "text": "Clients across Pakistan, the United Kingdom and the United States."
+      },
+      {
+        "value": "0",
+        "label": "cost to start",
+        "text": "Every project begins with a free consultation and a clear plan."
+      }
+    ],
+    "platforms": [
+      "Next.js",
+      "React",
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Amazon",
+      "eBay",
+      "Walmart",
+      "Google Ads",
+      "Meta"
+    ],
+    "process": [
+      {
+        "title": "Discover",
+        "text": "A free consultation to understand your business, your customers and what success looks like.",
+        "chips": [
+          "Free consultation",
+          "Goals & budget"
+        ]
+      },
+      {
+        "title": "Plan",
+        "text": "Scope, timeline and a clear quote — agreed before any work starts.",
+        "chips": [
+          "Scope",
+          "Timeline",
+          "Quote"
+        ]
+      },
+      {
+        "title": "Design",
+        "text": "You see how it looks and works, and approve it, before we build.",
+        "chips": [
+          "Wireframes",
+          "Visual design",
+          "Sign-off"
+        ]
+      },
+      {
+        "title": "Build",
+        "text": "We build in stages and show progress along the way — no black boxes.",
+        "chips": [
+          "Staged delivery",
+          "Demos",
+          "Testing"
+        ]
+      },
+      {
+        "title": "Launch & grow",
+        "text": "We go live, train your team and stay on hand to support and grow.",
+        "chips": [
+          "Go-live",
+          "Training",
+          "Support"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does Technomiles do?",
+        "a": "We build custom software and websites, set up and manage online stores and marketplace accounts, design brands, and run digital marketing and SEO — all from one team."
+      },
+      {
+        "q": "Do you work with clients outside Pakistan?",
+        "a": "Yes. Our office is in Rawalpindi and we work remotely with clients across Pakistan, the UK and the US."
+      },
+      {
+        "q": "How do we get started?",
+        "a": "Book a free consultation. We learn about your goals and come back with a clear plan and quote — no obligation."
+      },
+      {
+        "q": "Can you take over an existing website or store?",
+        "a": "Yes. We can improve, rebuild or manage what you already have — websites, Shopify or WooCommerce stores, and Amazon, eBay or Walmart accounts."
+      }
+    ],
+    "hero": {
+      "meta": "DIGITAL AGENCY · PK · UK · US",
+      "titleLead": "We build",
+      "ctaPrimary": "Book a free consultation",
+      "ctaSecondary": "Explore services",
+      "scrollHint": "SCROLL TO EXPLORE",
+      "status": "TAKING NEW PROJECTS",
+      "chips": [
+        {
+          "slug": "custom-development",
+          "label": "Custom Development"
+        },
+        {
+          "slug": "ecommerce",
+          "label": "E-commerce"
+        },
+        {
+          "slug": "design-studio",
+          "label": "Design Studio"
+        },
+        {
+          "slug": "social-media-marketing",
+          "label": "Social Media Marketing"
+        },
+        {
+          "slug": "seo",
+          "label": "SEO"
+        }
+      ]
+    },
+    "sections": {
+      "intro": {
+        "label": "WHO WE ARE",
+        "link": "About us"
+      },
+      "services": {
+        "label": "OUR SERVICES",
+        "title": "Five services.",
+        "titleAccent": "Zero hand-offs.",
+        "text": "Everything a growing business needs online — built and run by one accountable team. Hover a card, then dive into the detail."
+      },
+      "platforms": {
+        "label": [
+          "PLATFORMS WE",
+          "WORK WITH"
+        ]
+      },
+      "process": {
+        "label": "OUR PROCESS",
+        "title": "How ideas become",
+        "titleAccent": "results.",
+        "finalLabel": "YOUR TURN",
+        "finalTitle": "Start with step one — it's free.",
+        "finalCta": "Book a consultation"
+      },
+      "faq": {
+        "label": "FAQ",
+        "title": "Quick answers.",
+        "link": "All FAQs"
+      }
+    },
+    "bento": {
+      "feed": [
+        {
+          "badge": "S",
+          "event": "Order received · Shopify",
+          "time": "now"
+        },
+        {
+          "badge": "E",
+          "event": "Item sold · eBay",
+          "time": "1m"
+        },
+        {
+          "badge": "A",
+          "event": "Order shipped · Amazon",
+          "time": "3m"
+        },
+        {
+          "badge": "W",
+          "event": "Payment captured · Woo",
+          "time": "4m"
+        },
+        {
+          "badge": "M",
+          "event": "Listing live · Walmart",
+          "time": "6m"
+        },
+        {
+          "badge": "A",
+          "event": "New 5★ review · Amazon",
+          "time": "8m"
+        }
+      ],
+      "seoQuery": "web design company near me",
+      "seoDomain": "yourbusiness.com",
+      "seoTag": "▲ CLIMBING"
+    }
+  },
+  "testimonials": [
+    {
+      "name": "Jay Khan",
+      "role": "CEO",
+      "company": "Jawa Jewelers",
+      "initials": "JK",
+      "quote": "[PLACEHOLDER — add real testimonial]"
+    },
+    {
+      "name": "Prof. Dr. Muhammad Arshad",
+      "role": "Director",
+      "company": "ASAS International School",
+      "initials": "MA",
+      "quote": "[PLACEHOLDER — add real testimonial]"
+    },
+    {
+      "name": "Mr. Shumail",
+      "role": "CEO",
+      "company": "Gold Americas",
+      "initials": "S",
+      "quote": "[PLACEHOLDER — add real testimonial]"
+    },
+    {
+      "name": "Mr. Naveed Rehman",
+      "role": "Professor of Computer Sciences",
+      "company": "Cadet College Wana",
+      "initials": "NR",
+      "quote": "[PLACEHOLDER — add real testimonial]"
+    },
+    {
+      "name": "Mr. Muhammad Anwaar",
+      "role": "CEO",
+      "company": "KACEGB Properties UK",
+      "initials": "MA",
+      "quote": "[PLACEHOLDER — add real testimonial]"
+    }
+  ],
+  "about": {
+    "mission": "To give growing businesses the software, stores and marketing that big companies take for granted — without the big-company overhead.",
+    "vision": "To be the first call a business makes when it wants to grow online.",
+    "story": "[PLACEHOLDER — founding story]",
+    "values": [
+      {
+        "title": "Clear communication",
+        "text": "You always know what is happening, what comes next and what it costs."
+      },
+      {
+        "title": "Built to last",
+        "text": "Secure, maintainable work that we are happy to support for years."
+      },
+      {
+        "title": "Results over output",
+        "text": "We measure success by your sales, sign-ups and time saved."
+      }
+    ],
+    "team": [
+      {
+        "name": "Aamir Masood",
+        "ini": "AM",
+        "role": "Founder",
+        "bio": "[Short bio — background, what you lead at Technomiles.]"
+      },
+      {
+        "name": "[Team member]",
+        "ini": "TM",
+        "role": "[Role — e.g. Lead Developer]",
+        "bio": "[Short bio.]"
+      },
+      {
+        "name": "[Team member]",
+        "ini": "TM",
+        "role": "[Role — e.g. E-commerce Manager]",
+        "bio": "[Short bio.]"
+      },
+      {
+        "name": "[Team member]",
+        "ini": "TM",
+        "role": "[Role — e.g. Designer]",
+        "bio": "[Short bio.]"
+      }
+    ],
+    "page": {
+      "hero": {
+        "crumb": "ABOUT US",
+        "title": "We turn information into",
+        "titleAccent": "actions.",
+        "lead": "Technomiles is a Rawalpindi-based team that builds software, runs online stores and grows brands for clients in Pakistan, the UK and the US.",
+        "ctaPrimary": "Meet the team",
+        "ctaSecondary": "Work with us",
+        "coreLabel": "SINCE",
+        "foundingYear": "[YEAR]"
+      },
+      "story": {
+        "label": "OUR STORY",
+        "title": "A small team covering the whole journey — from the first line of code to the first sale.",
+        "today": "Today we build custom software and websites, run Shopify, Amazon, eBay and Walmart stores, design brands and manage marketing — so our clients deal with one team instead of five."
+      },
+      "missionLabel": "MISSION",
+      "visionLabel": "VISION",
+      "team": {
+        "label": "THE TEAM",
+        "title": "Small team.",
+        "titleAccent": "Senior hands.",
+        "text": "The people who will actually work on your project. Hover a card to learn more.",
+        "photoPlaceholder": "[ PHOTO ]"
+      },
+      "values": {
+        "label": "WHAT WE VALUE",
+        "title": "How we work with you."
+      }
+    }
+  },
+  "faqPage": {
+    "categories": [
+      "All",
+      "General",
+      "Development",
+      "E-commerce",
+      "Design & Marketing",
+      "Pricing"
+    ],
+    "items": [
+      {
+        "category": "General",
+        "q": "What does Technomiles do?",
+        "a": "We build custom software and websites, set up and manage online stores and marketplace accounts, design brands, and run digital marketing and SEO — all from one team."
+      },
+      {
+        "category": "General",
+        "q": "Where are you based, and do you work with clients abroad?",
+        "a": "Our office is in Rawalpindi, Pakistan. We work with clients across Pakistan, the UK and the US, remotely."
+      },
+      {
+        "category": "General",
+        "q": "How do I get started?",
+        "a": "Book a free consultation through our contact page or call us. We will learn about your goals and come back with a plan and a quote."
+      },
+      {
+        "category": "General",
+        "q": "Is the first consultation really free?",
+        "a": "Yes. The first consultation is free and there is no obligation to go ahead."
+      },
+      {
+        "category": "Development",
+        "q": "Can you build software around our existing processes?",
+        "a": "Yes. We map how your team works today and build the system to fit — ERP, LMS, POS, accounts and more."
+      },
+      {
+        "category": "Development",
+        "q": "Do you build desktop software as well as web apps?",
+        "a": "Yes. We build browser-based systems, desktop applications and websites."
+      },
+      {
+        "category": "Development",
+        "q": "Will my website be fast and work on mobile?",
+        "a": "Yes. We build on Next.js with responsive layouts, so your site loads quickly and looks right on every screen."
+      },
+      {
+        "category": "Development",
+        "q": "Do you offer support after launch?",
+        "a": "Yes. [Describe your support and maintenance plans.]"
+      },
+      {
+        "category": "E-commerce",
+        "q": "Which e-commerce platforms do you work with?",
+        "a": "Shopify, WordPress WooCommerce, Amazon, eBay and Walmart."
+      },
+      {
+        "category": "E-commerce",
+        "q": "Can you manage our marketplace accounts day to day?",
+        "a": "Yes — listings, pricing, orders and performance, for new or existing accounts."
+      },
+      {
+        "category": "E-commerce",
+        "q": "Can you set up online payments?",
+        "a": "Yes. We set up secure checkout and payment gateways for your store."
+      },
+      {
+        "category": "Design & Marketing",
+        "q": "What is included in a branding project?",
+        "a": "Typically logo, colours, typography and stationery. [Adjust to your standard deliverables.]"
+      },
+      {
+        "category": "Design & Marketing",
+        "q": "Which marketing channels do you manage?",
+        "a": "Social media, Google Ads, SMS and email marketing."
+      },
+      {
+        "category": "Design & Marketing",
+        "q": "How do you report on results?",
+        "a": "[Describe how and how often you report campaign results.]"
+      },
+      {
+        "category": "Pricing",
+        "q": "How much does a project cost?",
+        "a": "It depends on scope. After the free consultation we send a clear quote. [Add your pricing approach.]"
+      },
+      {
+        "category": "Pricing",
+        "q": "How long does a project take?",
+        "a": "It depends on size and scope. [Add typical timelines for websites, stores and software.]"
+      },
+      {
+        "category": "Pricing",
+        "q": "What payment methods do you accept?",
+        "a": "[List accepted payment methods.]"
+      }
+    ],
+    "page": {
+      "hero": {
+        "crumb": "FAQ",
+        "title": "Questions,",
+        "titleAccent": "answered.",
+        "lead": "Everything clients usually ask before we start. Can't find yours? Ask us directly.",
+        "searchLabel": "Search questions",
+        "searchPlaceholder": "Search questions…"
+      },
+      "browseLabel": "BROWSE BY TOPIC",
+      "topicsLabel": "FAQ topics",
+      "askCard": {
+        "title": "Still have a question?",
+        "text": "Talk to us — the first consultation is free.",
+        "link": "Contact us"
+      },
+      "empty": {
+        "title": "No matching questions.",
+        "text": "Try another word, or ask us directly.",
+        "cta": "Ask a question"
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "crumb": "CONTACT",
+      "title": "Let's build",
+      "titleAccent": "something.",
+      "lead": "Book a free consultation or just say hello. Tell us what you are working on and we will get back to you within [RESPONSE TIME]."
+    },
+    "form": {
+      "eyebrow": "SEND US A MESSAGE",
+      "title": "Tell us about your project.",
+      "fields": {
+        "name": {
+          "label": "FULL NAME",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "EMAIL",
+          "placeholder": "you@company.com"
+        },
+        "phone": {
+          "label": "PHONE / WHATSAPP",
+          "placeholder": "+92 …"
+        },
+        "service": {
+          "label": "SERVICE",
+          "default": "Not sure yet"
+        },
+        "message": {
+          "label": "MESSAGE",
+          "placeholder": "What are you building, and when do you need it?"
+        }
+      },
+      "consent": "By sending this you agree to our",
+      "consentLink": "Privacy Policy",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "errors": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email address.",
+        "phone": "Please enter a valid phone number.",
+        "message": "Please keep your message under 5,000 characters.",
+        "generic": "Something went wrong sending your message. Please try again, or email us directly."
+      },
+      "success": {
+        "title": "Message received.",
+        "text": "Thanks for reaching out — we'll be in touch shortly to book your free consultation.",
+        "again": "Send another"
+      }
+    },
+    "info": {
+      "email": "EMAIL",
+      "phone": "PHONE",
+      "office": "OFFICE",
+      "hours": "OFFICE HOURS",
+      "hoursValue": "[Add your office hours — e.g. Mon–Sat, 10am–7pm PKT]"
+    },
+    "map": {
+      "label": "FIND US",
+      "title": "Usman Plaza, Chaklala Scheme III",
+      "sub": "Rawalpindi, Pakistan",
+      "link": "Open in Google Maps",
+      "embedQuery": "Usman Plaza, Chaklala Scheme III, Rawalpindi"
+    },
+    "faqBanner": {
+      "title": "Have a quick question?",
+      "text": "Most answers are already in our FAQ.",
+      "cta": "Read the FAQ"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "crumb": "PRIVACY POLICY",
+      "lead": "How we collect, use and protect your information when you visit our website or work with us.",
+      "updated": "[DATE]",
+      "sections": [
+        {
+          "id": "collect",
+          "heading": "Information we collect",
+          "paragraphs": [
+            "When you contact us or request a consultation, we collect the details you give us — such as your name, email address, phone number, company and project details.",
+            "When you visit our website, we may automatically collect technical information such as your IP address, browser type, pages visited and time spent on the site."
+          ]
+        },
+        {
+          "id": "use",
+          "heading": "How we use your information",
+          "paragraphs": [
+            "We use your information to respond to enquiries, provide quotes, deliver our services, send invoices, and improve our website.",
+            "We will only send you marketing messages if you have agreed to receive them, and you can opt out at any time."
+          ]
+        },
+        {
+          "id": "cookies",
+          "heading": "Cookies",
+          "paragraphs": [
+            "Our website uses cookies to keep it working properly and to understand how visitors use it. You can block or delete cookies in your browser settings; some parts of the site may not work as intended without them.",
+            "[List any analytics or advertising tools you use, e.g. Google Analytics or Meta Pixel.]"
+          ]
+        },
+        {
+          "id": "sharing",
+          "heading": "Sharing your information",
+          "paragraphs": [
+            "We do not sell your personal information. We share it only with service providers who help us run our business — such as hosting, email and payment providers — and only as needed to provide our services, or where the law requires it."
+          ]
+        },
+        {
+          "id": "security",
+          "heading": "Data security",
+          "paragraphs": [
+            "We use reasonable technical and organisational measures to protect your information. No method of transmission over the internet is completely secure, but we work to protect your data and limit access to those who need it."
+          ]
+        },
+        {
+          "id": "retention",
+          "heading": "How long we keep data",
+          "paragraphs": [
+            "We keep personal information only for as long as needed for the purposes above, or as required for legal, tax and accounting reasons. [Add specific retention periods if you have them.]"
+          ]
+        },
+        {
+          "id": "rights",
+          "heading": "Your rights",
+          "paragraphs": [
+            "You can ask us to access, correct or delete the personal information we hold about you, or to stop using it for marketing. To make a request, email info@technomiles.com."
+          ]
+        },
+        {
+          "id": "contact",
+          "heading": "Contact us",
+          "paragraphs": [
+            "Questions about this policy? Email info@technomiles.com or write to us at Office No 3, Third Floor, 61-E, Usman Plaza, Commercial Area, Chaklala Scheme III, Rawalpindi, Pakistan."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "crumb": "TERMS & CONDITIONS",
+      "lead": "The terms that apply when you use our website or engage Technomiles for a project.",
+      "updated": "[DATE]",
+      "sections": [
+        {
+          "id": "services",
+          "heading": "Our services",
+          "paragraphs": [
+            "Technomiles provides software development, website development, e-commerce setup and management, design, digital marketing and SEO services. The exact scope of each project is set out in the proposal or quote we agree with you."
+          ]
+        },
+        {
+          "id": "quotes",
+          "heading": "Quotes & payment",
+          "paragraphs": [
+            "Quotes are valid for [NUMBER] days from the date issued. [Describe your payment terms — e.g. deposit before work starts, balance on delivery, invoice due dates.]",
+            "Late payments may pause work until the account is brought up to date."
+          ]
+        },
+        {
+          "id": "client",
+          "heading": "Your responsibilities",
+          "paragraphs": [
+            "You agree to provide the content, access, approvals and feedback we need on time. Delays on your side may affect the timeline and cost.",
+            "You confirm that any content you give us (text, images, logos) is yours to use, or that you have permission to use it."
+          ]
+        },
+        {
+          "id": "ip",
+          "heading": "Intellectual property",
+          "paragraphs": [
+            "[State who owns the work — e.g. ownership of final deliverables passes to the client on full payment, while we keep ownership of our pre-existing tools and code libraries.]",
+            "Unless you ask us not to, we may show completed work in our portfolio."
+          ]
+        },
+        {
+          "id": "confidential",
+          "heading": "Confidentiality",
+          "paragraphs": [
+            "We keep your business information confidential and use it only to deliver our services to you."
+          ]
+        },
+        {
+          "id": "third",
+          "heading": "Third-party platforms",
+          "paragraphs": [
+            "Many projects rely on third-party platforms such as Shopify, Amazon, eBay, Walmart, Google and social networks. We are not responsible for their policies, fees, outages or account decisions."
+          ]
+        },
+        {
+          "id": "liability",
+          "heading": "Limitation of liability",
+          "paragraphs": [
+            "We deliver our services with reasonable skill and care. [Add your limitation-of-liability clause — e.g. our total liability is limited to the fees paid for the relevant project.]"
+          ]
+        },
+        {
+          "id": "termination",
+          "heading": "Ending a project",
+          "paragraphs": [
+            "Either party may end a project with written notice. You pay for work completed up to that point. See our Refund Policy for details."
+          ]
+        },
+        {
+          "id": "law",
+          "heading": "Governing law",
+          "paragraphs": [
+            "These terms are governed by the laws of [JURISDICTION]."
+          ]
+        }
+      ]
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "crumb": "REFUND & CANCELLATION",
+      "lead": "How cancellations and refunds work for our projects and ongoing services.",
+      "updated": "[DATE]",
+      "sections": [
+        {
+          "id": "consult",
+          "heading": "Free consultations",
+          "paragraphs": [
+            "Initial consultations are free, so no refund applies."
+          ]
+        },
+        {
+          "id": "deposits",
+          "heading": "Deposits",
+          "paragraphs": [
+            "[State whether project deposits are refundable — e.g. deposits cover planning and scheduling and are non-refundable once work has started.]"
+          ]
+        },
+        {
+          "id": "projects",
+          "heading": "Development & design projects",
+          "paragraphs": [
+            "If you cancel a project, you pay for the work completed up to the date of cancellation. Any amount paid beyond that will be refunded. [Adjust to your policy.]",
+            "Completed and approved milestones are not refundable."
+          ]
+        },
+        {
+          "id": "retainers",
+          "heading": "Monthly services",
+          "paragraphs": [
+            "Monthly services such as store management, social media and SEO can be cancelled with [NUMBER] days’ written notice. Fees for the current month are not refundable."
+          ]
+        },
+        {
+          "id": "adspend",
+          "heading": "Advertising spend",
+          "paragraphs": [
+            "Money paid directly to advertising platforms (such as Google or Meta) is controlled by those platforms and cannot be refunded by us."
+          ]
+        },
+        {
+          "id": "request",
+          "heading": "How to request a refund",
+          "paragraphs": [
+            "Email info@technomiles.com with your name, project and the reason for your request. We aim to reply within [NUMBER] working days."
+          ]
+        }
+      ]
+    }
+  },
+  "legalShared": {
+    "crumb": "LEGAL",
+    "updatedLabel": "LAST UPDATED",
+    "tocLabel": "ON THIS PAGE"
+  },
+  "servicePageExtras": {
+    "custom-development": {
+      "configuratorModules": [
+        "Inventory",
+        "Purchasing",
+        "Sales",
+        "Point of Sale",
+        "HR",
+        "Payroll",
+        "Attendance",
+        "Accounts",
+        "Invoicing",
+        "Reports",
+        "Student portal",
+        "Online store"
+      ],
+      "products": [
+        {
+          "title": "Enterprise Resource Planning",
+          "text": "Inventory, purchasing, sales and HR in one system."
+        },
+        {
+          "title": "Learning Management System",
+          "text": "Courses, quizzes and portals for schools and academies."
+        },
+        {
+          "title": "Point of Sale",
+          "text": "Fast checkout with stock that updates as you sell."
+        },
+        {
+          "title": "Accounts & Finance",
+          "text": "Ledgers, invoices and expenses, with reports on demand."
+        },
+        {
+          "title": "Business & Portfolio Websites",
+          "text": "Fast Next.js websites that are easy to update."
+        },
+        {
+          "title": "Desktop Software",
+          "text": "Windows apps for teams that work offline or on-site."
+        }
+      ],
+      "commits": [
+        {
+          "hash": "a1f3c9e",
+          "type": "feat",
+          "message": "free discovery call — map how your team works today"
+        },
+        {
+          "hash": "b7d20e4",
+          "type": "feat",
+          "message": "scope, timeline and quote agreed"
+        },
+        {
+          "hash": "c4e8a11",
+          "type": "design",
+          "message": "screens and workflows approved by your team"
+        },
+        {
+          "hash": "d93b7f0",
+          "type": "build",
+          "message": "developed in stages, with regular demos"
+        },
+        {
+          "hash": "e12f6ac",
+          "type": "test",
+          "message": "checked against your real data and processes"
+        },
+        {
+          "hash": "f5a0d2b",
+          "type": "release",
+          "message": "go-live, training and handover"
+        },
+        {
+          "hash": "HEAD",
+          "type": "support",
+          "message": "ongoing updates and support"
+        }
+      ],
+      "copy": {
+        "hero": {
+          "code": "// 01 — custom development",
+          "title": "Code that runs your",
+          "titleAccent": "business.",
+          "ctaPrimary": "Start your build",
+          "ctaSecondary": "Build your system",
+          "tags": [
+            "ERP",
+            "LMS",
+            "POS",
+            "FINANCE",
+            "WEB",
+            "DESKTOP"
+          ]
+        },
+        "configurator": {
+          "label": "CONFIGURATOR",
+          "title": [
+            "Build your system,",
+            "one module at a time."
+          ],
+          "text": "Switch modules on and watch them connect to one shared database. That's how we build: only what you need, all talking to each other.",
+          "modulesLabel": "MODULES",
+          "selected": "SELECTED",
+          "groupLabel": "Modules",
+          "cta": "Discuss this setup",
+          "hubLabel": "CORE",
+          "hubTitle": "Your data",
+          "defaults": [
+            "Inventory",
+            "Sales",
+            "Accounts",
+            "Reports"
+          ]
+        },
+        "products": {
+          "label": "WHAT WE BUILD",
+          "title": "Six kinds of software.",
+          "titleAccent": "One engineering team.",
+          "apps": [
+            "erp.app",
+            "lms.app",
+            "pos.app",
+            "finance.app",
+            "web.app",
+            "desktop.app"
+          ]
+        },
+        "process": {
+          "label": "HOW WE SHIP",
+          "title": "Our process, as a commit history.",
+          "text": "Every project follows the same clean history — no surprises between the first call and go-live.",
+          "command": "$ git log --oneline your-project",
+          "branch": "⎇ main"
+        }
+      }
+    },
+    "ecommerce": {
+      "activityFeed": [
+        {
+          "badge": "S",
+          "event": "Order received",
+          "platform": "Shopify",
+          "time": "just now"
+        },
+        {
+          "badge": "E",
+          "event": "Item sold",
+          "platform": "eBay",
+          "time": "1m"
+        },
+        {
+          "badge": "A",
+          "event": "Order shipped",
+          "platform": "Amazon",
+          "time": "3m"
+        },
+        {
+          "badge": "W",
+          "event": "Payment captured",
+          "platform": "WooCommerce",
+          "time": "4m"
+        },
+        {
+          "badge": "M",
+          "event": "Listing live",
+          "platform": "Walmart",
+          "time": "6m"
+        },
+        {
+          "badge": "A",
+          "event": "New 5-star review",
+          "platform": "Amazon",
+          "time": "8m"
+        },
+        {
+          "badge": "S",
+          "event": "Stock synced",
+          "platform": "Shopify",
+          "time": "9m"
+        },
+        {
+          "badge": "E",
+          "event": "Offer accepted",
+          "platform": "eBay",
+          "time": "12m"
+        }
+      ],
+      "channels": [
+        {
+          "n": "Shopify",
+          "k": "store",
+          "d": "Your own branded store — designed, stocked and ready to take payments.",
+          "f": [
+            "Store setup and theme design",
+            "Product catalogue and collections",
+            "Apps, shipping and taxes",
+            "Payments and checkout"
+          ]
+        },
+        {
+          "n": "WooCommerce",
+          "k": "store",
+          "d": "A flexible store built on WordPress, with only the plugins you need.",
+          "f": [
+            "WordPress + WooCommerce build",
+            "Plugins chosen for your needs",
+            "Payment gateway setup",
+            "Speed and security hardening"
+          ]
+        },
+        {
+          "n": "Amazon",
+          "k": "mkt",
+          "d": "Reach Amazon shoppers with listings that rank and an account that stays healthy.",
+          "f": [
+            "Seller account setup",
+            "Listings and A+ content",
+            "Pricing and inventory",
+            "Orders and account health"
+          ]
+        },
+        {
+          "n": "eBay",
+          "k": "mkt",
+          "d": "Professional eBay listings and a store that turns browsers into buyers.",
+          "f": [
+            "eBay store setup",
+            "Listing templates",
+            "Pricing and promotions",
+            "Orders and feedback"
+          ]
+        },
+        {
+          "n": "Walmart",
+          "k": "mkt",
+          "d": "Get onto Walmart Marketplace and keep your catalogue in sync.",
+          "f": [
+            "Marketplace onboarding",
+            "Catalogue listing",
+            "Pricing and stock sync",
+            "Orders and fulfilment"
+          ]
+        }
+      ],
+      "listingHotspots": [
+        {
+          "title": "Images",
+          "text": "Clean, consistent photos from every angle — shot and edited by our Design Studio."
+        },
+        {
+          "title": "Title",
+          "text": "Keyword-rich titles written for how shoppers actually search on each marketplace."
+        },
+        {
+          "title": "Price",
+          "text": "Competitive pricing, reviewed regularly against the market so you win the buy box."
+        },
+        {
+          "title": "Key features",
+          "text": "Benefits first, specs second — bullet points that answer buyers’ questions before they ask."
+        },
+        {
+          "title": "Reviews",
+          "text": "Fast order handling and follow-up that protect your ratings and keep reviews positive."
+        }
+      ],
+      "journey": [
+        {
+          "title": "Set up",
+          "text": "Accounts, store and payments configured properly from day one."
+        },
+        {
+          "title": "List",
+          "text": "Catalogue, photos and copy that rank and convert."
+        },
+        {
+          "title": "Launch",
+          "text": "Go live across the channels that fit your products."
+        },
+        {
+          "title": "Manage",
+          "text": "Orders, pricing, stock and messages handled day to day."
+        },
+        {
+          "title": "Grow",
+          "text": "New channels, promotions and ads when you are ready."
+        }
+      ],
+      "copy": {
+        "hero": {
+          "title": "Sell everywhere.",
+          "titleLine2": "Manage from",
+          "titleAccent": "one place.",
+          "lead": "We build your online store and run your marketplace accounts — from listings to orders to growth — so you can focus on your products.",
+          "ctaPrimary": "Grow my store",
+          "ctaSecondary": "Explore channels",
+          "activityLabel": "STORE ACTIVITY",
+          "live": "LIVE"
+        },
+        "channels": {
+          "label": "CHANNELS",
+          "title": [
+            "Every channel,",
+            "handled properly."
+          ],
+          "text": "Pick a platform to see exactly what we take off your plate.",
+          "tablistLabel": "Sales channels",
+          "kinds": {
+            "store": "YOUR OWN STORE",
+            "mkt": "MARKETPLACE"
+          },
+          "storeName": "YOUR STORE",
+          "storeNav": [
+            "Shop",
+            "New",
+            "Sale",
+            "Cart (2)"
+          ],
+          "storeBanner": "New season",
+          "price": "[PRICE]"
+        },
+        "listing": {
+          "label": "WHY LISTINGS CONVERT",
+          "title": "Anatomy of a listing",
+          "titleAccent": "that sells."
+        },
+        "journey": {
+          "label": "THE JOURNEY",
+          "title": "From setup to scale."
+        }
+      }
+    },
+    "design-studio": {
+      "palettes": [
+        {
+          "name": "Ember",
+          "colors": [
+            "#E0192F",
+            "#141418",
+            "#F4F1EC",
+            "#F5B544"
+          ]
+        },
+        {
+          "name": "Ocean",
+          "colors": [
+            "#0F4C81",
+            "#0B1320",
+            "#EAF2F8",
+            "#3FD0E0"
+          ]
+        },
+        {
+          "name": "Forest",
+          "colors": [
+            "#2F6B4F",
+            "#0F1A14",
+            "#EFEDE4",
+            "#D9B26F"
+          ]
+        },
+        {
+          "name": "Blossom",
+          "colors": [
+            "#D6336C",
+            "#2A1020",
+            "#FFF0F5",
+            "#7A5AF8"
+          ]
+        }
+      ],
+      "typePairings": [
+        {
+          "name": "Future",
+          "display": "'Unbounded', sans-serif",
+          "body": "'Manrope', sans-serif",
+          "weight": "800"
+        },
+        {
+          "name": "Editorial",
+          "display": "'DM Serif Display', Georgia, serif",
+          "body": "'Manrope', sans-serif",
+          "weight": "400"
+        },
+        {
+          "name": "Geometric",
+          "display": "'Syne', sans-serif",
+          "body": "'Space Grotesk', sans-serif",
+          "weight": "800"
+        }
+      ],
+      "marks": [
+        "Circle",
+        "Square",
+        "Spark"
+      ],
+      "processLayers": [
+        {
+          "title": "Brief",
+          "text": "We listen: your audience, competitors, goals and must-haves."
+        },
+        {
+          "title": "Moodboard",
+          "text": "Colours, textures and references that set the direction."
+        },
+        {
+          "title": "Concepts",
+          "text": "Several distinct routes — not variations of one idea."
+        },
+        {
+          "title": "Refine",
+          "text": "We sharpen the chosen route until every detail earns its place."
+        },
+        {
+          "title": "Deliver",
+          "text": "Final files and guidelines, ready for print, web and social."
+        }
+      ],
+      "copy": {
+        "hero": {
+          "meta": "STUDIO — 03",
+          "lines": [
+            "We design",
+            "what people",
+            "remember."
+          ],
+          "selTag": "remember.svg",
+          "cursorLabel": "Technomiles",
+          "leadSuffix": "Hover the letters. Go on.",
+          "cta": "Start a design project"
+        },
+        "playground": {
+          "label": "BRAND PLAYGROUND",
+          "title": "Try on a brand.",
+          "text": "Type your business name, then play with colour, type and mark. This is a taste of how we explore — the real thing is built around you.",
+          "nameLabel": "YOUR BUSINESS NAME",
+          "defaultName": "Your Brand",
+          "paletteLabel": "PALETTE",
+          "typeLabel": "TYPE PAIRING",
+          "markLabel": "MARK",
+          "posterLabel": "POSTER / A2",
+          "posterTagline": "Made to be remembered.",
+          "cardLabel": "BUSINESS CARD",
+          "emailPrefix": "hello@",
+          "emailFallback": "yourbrand"
+        },
+        "disciplines": {
+          "label": "DISCIPLINES",
+          "title": "Six crafts.",
+          "titleAccent": "One eye for detail.",
+          "text": "Hover each piece to see what's inside.",
+          "tileTitles": [
+            "Branding",
+            "Stationery",
+            "Product photos",
+            "Product videos",
+            "Animation",
+            "Videography"
+          ],
+          "brief": {
+            "label": "HAVE A BRIEF?",
+            "title": "Send it over. We'll sketch a route.",
+            "cta": "Start a project"
+          }
+        },
+        "layers": {
+          "label": "HOW WE DESIGN",
+          "title": "Our process, layer by layer.",
+          "panelLabel": "LAYERS"
+        }
+      }
+    },
+    "social-media-marketing": {
+      "weekCalendar": [
+        {
+          "d": "Mon",
+          "items": [
+            {
+              "t": "Reel",
+              "k": "social"
+            },
+            {
+              "t": "Email",
+              "k": "email"
+            }
+          ]
+        },
+        {
+          "d": "Tue",
+          "items": [
+            {
+              "t": "Search ad",
+              "k": "ads"
+            }
+          ]
+        },
+        {
+          "d": "Wed",
+          "items": [
+            {
+              "t": "Carousel",
+              "k": "social"
+            },
+            {
+              "t": "SMS offer",
+              "k": "sms"
+            }
+          ]
+        },
+        {
+          "d": "Thu",
+          "items": [
+            {
+              "t": "Story",
+              "k": "social"
+            },
+            {
+              "t": "Shopping ad",
+              "k": "ads"
+            }
+          ]
+        },
+        {
+          "d": "Fri",
+          "items": [
+            {
+              "t": "Reel",
+              "k": "social"
+            },
+            {
+              "t": "Newsletter",
+              "k": "email"
+            }
+          ]
+        },
+        {
+          "d": "Sat",
+          "items": [
+            {
+              "t": "Weekend SMS",
+              "k": "sms"
+            },
+            {
+              "t": "Live Q&A",
+              "k": "social"
+            }
+          ]
+        },
+        {
+          "d": "Sun",
+          "items": [
+            {
+              "t": "Story",
+              "k": "social"
+            }
+          ]
+        }
+      ],
+      "funnel": [
+        {
+          "stage": "Awareness",
+          "text": "Get seen by the right people.",
+          "channels": "Social media · Google Ads"
+        },
+        {
+          "stage": "Consideration",
+          "text": "Give them reasons to choose you.",
+          "channels": "Content · Retargeting"
+        },
+        {
+          "stage": "Conversion",
+          "text": "Turn interest into orders and enquiries.",
+          "channels": "Search ads · SMS offers"
+        },
+        {
+          "stage": "Loyalty",
+          "text": "Bring customers back, again and again.",
+          "channels": "Email · SMS"
+        }
+      ],
+      "copy": {
+        "hero": {
+          "title": "Stop the scroll.",
+          "titleLine2": "Start the",
+          "titleAccent": "conversation.",
+          "leadSuffix": "Content made in-house by our Design Studio.",
+          "ctaPrimary": "Plan my campaign",
+          "ctaSecondary": "See a week of content",
+          "posts": [
+            "NEW DROP",
+            "WEEKEND SALE",
+            "BEHIND THE SCENES",
+            "CUSTOMER STORY"
+          ],
+          "notifs": {
+            "follower": "New follower",
+            "campaign": "Campaign approved",
+            "email": "Email opened",
+            "sms": "SMS delivered",
+            "adBadge": "Ad"
+          }
+        },
+        "channels": {
+          "label": "CHANNELS",
+          "title": [
+            "Four channels.",
+            "One strategy."
+          ],
+          "text": "Every campaign starts with a plan built around your goals, audience and budget — then we run each channel where it works best.",
+          "cards": [
+            "Social media management",
+            "Google advertising",
+            "SMS marketing",
+            "Email marketing"
+          ],
+          "ad": {
+            "query": "best gold jewellery online",
+            "sponsored": "Sponsored",
+            "domain": "yourbusiness.com",
+            "headline": "Handcrafted Gold Jewellery — Free Shipping"
+          },
+          "sms": [
+            "Hi! Do you have this in size M?",
+            "Yes! And it's 20% off this weekend — use code WEEKEND.",
+            "Ordering now!"
+          ],
+          "email": {
+            "sender": "Your Brand",
+            "rows": [
+              {
+                "subject": "Your cart is waiting",
+                "time": "9:41"
+              },
+              {
+                "subject": "New arrivals picked for you",
+                "time": "Mon"
+              },
+              {
+                "subject": "Thanks for your order",
+                "time": "Sun"
+              }
+            ]
+          }
+        },
+        "calendar": {
+          "label": "CONTENT CALENDAR",
+          "title": "A week of content,",
+          "titleAccent": "planned for you.",
+          "filterLabel": "Filter channels",
+          "filters": [
+            {
+              "t": "All",
+              "k": "all"
+            },
+            {
+              "t": "Social",
+              "k": "social"
+            },
+            {
+              "t": "Ads",
+              "k": "ads"
+            },
+            {
+              "t": "Email",
+              "k": "email"
+            },
+            {
+              "t": "SMS",
+              "k": "sms"
+            }
+          ],
+          "note": "An example plan — yours is built around your products, audience and budget."
+        },
+        "funnel": {
+          "label": "THE FUNNEL",
+          "title": "Every stage of the funnel, covered."
+        }
+      }
+    },
+    "seo": {
+      "auditChecks": [
+        "Page speed",
+        "Mobile friendliness",
+        "Titles & meta descriptions",
+        "Structured data",
+        "Broken links",
+        "XML sitemap & indexing"
+      ],
+      "serpHotspots": [
+        {
+          "title": "Title tag",
+          "text": "The clickable headline. We write titles that match the search and make people want to click.",
+          "tag": "ON-PAGE SEO"
+        },
+        {
+          "title": "URL & breadcrumbs",
+          "text": "Clean, readable URLs and site structure that help search engines understand your pages.",
+          "tag": "TECHNICAL SEO"
+        },
+        {
+          "title": "Meta description",
+          "text": "The short pitch under the title — written to earn the click, not just fill space.",
+          "tag": "ON-PAGE SEO"
+        },
+        {
+          "title": "Rich results",
+          "text": "Stars, FAQs and prices shown right in the results, powered by structured data.",
+          "tag": "TECHNICAL SEO"
+        },
+        {
+          "title": "Local pack",
+          "text": "The map listings for “near me” searches — won with a strong Google Business Profile.",
+          "tag": "LOCAL SEO"
+        }
+      ],
+      "pillars": [
+        {
+          "title": "Keyword research",
+          "text": "Find the searches your customers make — and the ones you can win."
+        },
+        {
+          "title": "On-page SEO",
+          "text": "Titles, headings, content and internal links tuned for your targets."
+        },
+        {
+          "title": "Technical SEO",
+          "text": "Speed, indexing, structured data and fixes search engines care about."
+        },
+        {
+          "title": "Local SEO",
+          "text": "Google Business Profile and listings so nearby customers find you first."
+        },
+        {
+          "title": "Marketplace SEO",
+          "text": "Listing optimisation for Amazon, eBay and Walmart search."
+        },
+        {
+          "title": "SEO content",
+          "text": "Pages and posts written for search engines and for people."
+        }
+      ],
+      "growthMilestones": [
+        {
+          "title": "Audit",
+          "text": "Find what holds your site back."
+        },
+        {
+          "title": "Fix",
+          "text": "Technical and on-page fixes."
+        },
+        {
+          "title": "Optimise",
+          "text": "Content, local and listings."
+        },
+        {
+          "title": "Grow",
+          "text": "Keep climbing, month after month."
+        }
+      ],
+      "copy": {
+        "hero": {
+          "title": "Climb to where customers",
+          "titleAccent": "look.",
+          "lead": "Rank higher for the searches that matter, with a site that's technically sound and content that earns the click.",
+          "ctaPrimary": "Get found",
+          "ctaSecondary": "Try the audit",
+          "query": "web design company in rawalpindi",
+          "you": "yourbusiness.com — Your Business",
+          "others": [
+            "Pixel Studio — Web Design",
+            "Northline Digital Agency",
+            "Rawalpindi Web Solutions",
+            "Brightcode Websites",
+            "Metro Creative Studio"
+          ],
+          "climbing": "▲ CLIMBING"
+        },
+        "audit": {
+          "label": "SITE AUDIT",
+          "title": "What we check first.",
+          "text": "Every SEO project starts with an audit. Press run to see the six things we look at before anything else.",
+          "note": "DEMO — YOUR REAL AUDIT IS PART OF THE FREE CONSULTATION",
+          "urlLabel": "Website address",
+          "urlDefault": "yourwebsite.com",
+          "run": "Run audit",
+          "running": "Scanning…",
+          "again": "Run again",
+          "checksLabel": "CHECKS",
+          "msgIdle": "READY WHEN YOU ARE",
+          "msgRunning": "SCANNING YOUR SITE…",
+          "msgDone": "AUDIT COMPLETE — LET’S FIX WHAT WE FOUND"
+        },
+        "serp": {
+          "label": "ON THE RESULTS PAGE",
+          "title": "Anatomy of a result",
+          "titleAccent": "people click.",
+          "breadcrumb": "yourbusiness.com › services › web-design",
+          "resultTitle": "Web Design Company in Rawalpindi | Your Business",
+          "resultDesc": "Fast, modern websites for local businesses. Free consultation, clear pricing and support after launch. Book a call today.",
+          "rating": "Rating · [REVIEWS]",
+          "localName": "Your Business",
+          "localMeta": "Web designer · Rawalpindi · Open",
+          "dotLabel": "Show part"
+        },
+        "path": {
+          "label": "WHAT WE DO",
+          "title": "The path to page one.",
+          "yLabel": "VISIBILITY",
+          "xLabel": "TIME →"
+        }
+      }
+    }
+  },
+  "servicePageShared": {
+    "crumbServices": "SERVICES",
+    "faqLabel": "QUESTIONS",
+    "faqLink": "See all FAQs",
+    "otherLabel": "OTHER SERVICES"
+  },
+  "sharedProcessSteps": [
+    {
+      "title": "Discover",
+      "text": "A free consultation to understand your goals, customers and budget."
+    },
+    {
+      "title": "Plan & design",
+      "text": "Scope, timeline and designs agreed before anything is built."
+    },
+    {
+      "title": "Build",
+      "text": "We work in stages and share progress, so there are no surprises."
+    },
+    {
+      "title": "Launch & support",
+      "text": "We launch, hand over, and stay on hand after go-live."
+    }
+  ],
+  "whyUs": [
+    {
+      "title": "One team, every discipline",
+      "text": "Development, e-commerce, design and marketing under one roof — no juggling agencies."
+    },
+    {
+      "title": "Clients on three continents",
+      "text": "We work with businesses in Pakistan, the UK and the US."
+    },
+    {
+      "title": "Free consultation first",
+      "text": "You get a clear plan and a quote before you pay anything."
+    }
+  ],
+  "testimonialsSection": {
+    "label": "CLIENT STORIES",
+    "titleLines": [
+      "Clients who'd",
+      "hire us"
+    ],
+    "titleAccent": "again.",
+    "text": "Retailers, schools and property firms across three continents trust us with the work that keeps them growing."
+  },
+  "notFound": {
+    "code": "404",
+    "crumb": "PAGE NOT FOUND",
+    "title": "This page took",
+    "titleAccent": "a detour.",
+    "lead": "The page you're looking for doesn't exist or has moved. Let's get you back on track.",
+    "ctaPrimary": "Back to home",
+    "ctaSecondary": "Contact us",
+    "servicesLabel": "OR EXPLORE OUR SERVICES"
+  }
+}

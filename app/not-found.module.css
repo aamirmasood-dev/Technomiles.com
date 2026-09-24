@@ -1,0 +1,42 @@
+.code {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.btns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.more {
+  padding: 0 40px 140px;
+  position: relative;
+  z-index: 2;
+}
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lbl {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 1024px) {
+  .more {
+    padding: 0 24px 100px;
+  }
+}
+@media (max-width: 640px) {
+  .more {
+    padding: 0 16px 72px;
+  }
+}

@@ -1,0 +1,38 @@
+/* Service page: social-media-marketing */
+
+.site{--acc2:#9B8CFF}
+.phone{position:relative;width:300px;height:600px;border-radius:44px;border:10px solid #1C1C22;background:#0A0A0D;overflow:hidden;box-shadow:0 60px 120px -40px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.08)}
+.phone::before{content:"";position:absolute;top:10px;left:50%;width:90px;height:24px;margin-left:-45px;border-radius:14px;background:#1C1C22;z-index:3}
+.pfeed{padding:44px 14px 0;animation:feedup 18s linear infinite}
+.phone:hover .pfeed{animation-play-state:paused}
+@keyframes feedup{to{transform:translateY(-50%)}}
+@keyframes rise2{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:1}100%{transform:translateY(-360px) scale(1.1) rotate(12deg);opacity:0}}
+.heart{position:absolute;bottom:40px;animation:rise2 4s ease-out infinite}
+.notif{position:absolute;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:14px;background:rgba(18,18,23,.92);border:1px solid rgba(255,255,255,.1);font-weight:700;font-size:14px;backdrop-filter:blur(8px);white-space:nowrap;box-shadow:0 20px 40px -20px rgba(0,0,0,.8)}
+.notif i{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-style:normal}
+.chn{position:relative;display:flex;flex-direction:column;gap:24px;padding:32px;border-radius:24px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.015);overflow:hidden;min-height:360px;box-sizing:border-box;transition:border-color .35s,transform .45s cubic-bezier(.2,.7,.2,1)}
+.chn:hover{border-color:var(--acc2);transform:translateY(-6px)}
+.mock{flex-grow:1;border-radius:16px;background:#0E0E13;border:1px solid rgba(255,255,255,.07);padding:18px;display:flex;flex-direction:column;gap:10px;justify-content:center;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.chn:hover .mock{transform:scale(1.03)}
+.bub{align-self:flex-start;max-width:80%;padding:12px 16px;border-radius:18px 18px 18px 4px;background:#1C1C22;font-size:14px;line-height:1.45;color:#DAD7DE;opacity:0;transform:translateY(10px);transition:all .5s}
+.bub.me{align-self:flex-end;border-radius:18px 18px 4px 18px;background:var(--acc2);color:#0A0A0D;font-weight:600}
+[data-in] .bub,.chn:hover .bub{opacity:1;transform:none}
+[data-in] .bub:nth-child(2){transition-delay:.6s}[data-in] .bub:nth-child(3){transition-delay:1.2s}
+.hpop{transition:transform .4s cubic-bezier(.2,.7,.2,1.8)}
+.chn:hover .hpop{transform:scale(1.5)}
+.ftab{all:unset;cursor:pointer;height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);font-weight:600;font-size:14px;color:#C9C6CE;display:inline-flex;align-items:center;gap:8px;transition:all .3s}
+.ftab i{width:10px;height:10px;border-radius:50%}
+.ftab:hover{border-color:rgba(255,255,255,.4);color:#fff}
+.ftab.on{background:#F2EFEA;color:#0A0A0D;border-color:#F2EFEA}
+.day{display:flex;flex-direction:column;gap:10px;padding:16px;border-radius:18px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.015);min-height:260px;transition:border-color .3s}
+.day:hover{border-color:rgba(255,255,255,.25)}
+.post{padding:12px;border-radius:12px;font-weight:700;font-size:14px;display:flex;flex-direction:column;gap:8px;transition:opacity .4s,transform .4s,filter .4s;cursor:default}
+.post:hover{transform:translateY(-4px) rotate(-1.5deg)}
+.post.dim{opacity:.15;filter:grayscale(1);transform:scale(.96)}
+.post.social{background:color-mix(in oklab,var(--red) 22%,#111116);border:1px solid color-mix(in oklab,var(--red) 50%,transparent)}
+.post.ads{background:color-mix(in oklab,#3FD0E0 18%,#111116);border:1px solid color-mix(in oklab,#3FD0E0 45%,transparent)}
+.post.email{background:color-mix(in oklab,var(--acc2) 22%,#111116);border:1px solid color-mix(in oklab,var(--acc2) 50%,transparent)}
+.post.sms{background:color-mix(in oklab,#F5B544 20%,#111116);border:1px solid color-mix(in oklab,#F5B544 45%,transparent)}
+.fn{display:flex;align-items:center;gap:40px}
+.fn-bar{height:84px;box-sizing:border-box;padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-radius:18px;background:linear-gradient(90deg,var(--red),color-mix(in oklab,var(--red) 55%,var(--acc2)));color:#fff;transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s}
+.fn:hover .fn-bar{transform:translateX(12px);box-shadow:0 20px 50px -16px var(--red)}

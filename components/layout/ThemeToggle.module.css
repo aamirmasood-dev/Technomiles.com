@@ -1,0 +1,67 @@
+/* 76×40 pill: sun (left) / moon (right), red knob behind the active icon. Knob position follows the
+   <html> class directly, so it's right on first paint (no hydration flash). */
+.toggle {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 40px;
+  padding: 0 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--ink), 0.14);
+  background: rgba(var(--ink), 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.toggle:hover {
+  border-color: var(--red);
+}
+.toggle:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+.knob {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 4px 14px -4px var(--red);
+  transition: transform 0.55s cubic-bezier(0.77, 0, 0.18, 1);
+}
+.sun,
+.moon {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s, transform 0.55s cubic-bezier(0.77, 0, 0.18, 1);
+}
+.sun {
+  color: #fff;
+}
+.moon {
+  color: var(--dim);
+}
+.toggle:hover .sun {
+  transform: rotate(45deg);
+}
+
+:global(.theme-dark) .knob {
+  transform: translateX(36px);
+}
+:global(.theme-dark) .sun {
+  color: var(--dim);
+  transform: rotate(-90deg);
+}
+:global(.theme-dark) .moon {
+  color: #fff;
+  transform: rotate(-20deg);
+}
+:global(.theme-dark) .toggle:hover .sun {
+  transform: rotate(-45deg);
+}

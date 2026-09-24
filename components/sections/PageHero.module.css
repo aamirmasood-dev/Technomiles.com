@@ -1,0 +1,158 @@
+/* Values from the inner-page hero inline styles (about/contact/faq designs). */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+}
+.grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.glow {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  right: -260px;
+  top: -300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in oklab, var(--red) 20%, transparent) 0%, transparent 62%);
+  pointer-events: none;
+}
+.inner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 640px;
+  padding: 80px 0 90px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  align-items: center;
+  gap: 40px;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-width: 0;
+}
+.title {
+  margin: 0;
+  font-size: 76px;
+  line-height: 1.02;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+.lead {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 620px;
+  text-wrap: pretty;
+}
+.orbWrap {
+  position: relative;
+  height: 440px;
+}
+.orb {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-out;
+}
+.ring1,
+.ring2,
+.ring3 {
+  position: absolute;
+  border-radius: 50%;
+}
+.ring1 {
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(var(--ink),0.07);
+}
+.ring2 {
+  width: 330px;
+  height: 330px;
+  border: 1px dashed color-mix(in oklab, var(--red) 55%, transparent);
+}
+.ring3 {
+  width: 240px;
+  height: 240px;
+  border: 1px solid rgba(var(--ink),0.14);
+}
+.sat1 {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 16px var(--cyan);
+}
+.sat2 {
+  position: absolute;
+  bottom: 24px;
+  right: 14px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+}
+.core {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ff6b7d 0%, var(--red) 45%, #5a0612 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 24px;
+  }
+  .inner {
+    min-height: 0;
+    padding: 64px 0 72px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .title {
+    font-size: clamp(44px, 8vw, 76px);
+  }
+  .orbWrap {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    padding: 0 16px;
+  }
+  .inner {
+    padding: 48px 0 56px;
+  }
+  .copy {
+    gap: 24px;
+  }
+  .title {
+    font-size: clamp(36px, 10.5vw, 44px);
+  }
+  .lead {
+    font-size: 17px;
+  }
+  .glow {
+    width: 600px;
+    height: 600px;
+    right: -300px;
+  }
+}

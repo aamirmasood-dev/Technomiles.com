@@ -1,0 +1,300 @@
+/* About page — values from about.dc.html inline styles. */
+.coreText {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 1.3;
+}
+.heroBtns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* story */
+.story {
+  padding: 140px 40px;
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid rgba(var(--ink),0.06);
+}
+.storyRow {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 80px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.storyText {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.storyH2 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.storyP {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.mv {
+  max-width: 1280px;
+  margin: 100px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.mvCard {
+  height: 100%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mvLbl {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+}
+.mvText {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.mvLine {
+  height: 2px;
+  width: 48px;
+}
+
+/* team */
+.team {
+  padding: 140px 40px;
+  background: var(--bg-2);
+  border-top: 1px solid rgba(var(--ink),0.06);
+  border-bottom: 1px solid rgba(var(--ink),0.06);
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.teamGrid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.teamInner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+}
+.teamH2 {
+  margin: 0;
+  font-size: 56px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.headP {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 420px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+.tm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 18px;
+}
+.photo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.bio {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.socs {
+  display: flex;
+  gap: 10px;
+}
+.tmMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0 4px;
+}
+.tmWho {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.tmWho > :first-child {
+  font-size: 19px;
+  font-weight: 600;
+}
+.tmWho > :last-child {
+  font-size: 15px;
+  color: var(--muted);
+}
+.tmN {
+  font-size: 12px;
+  color: var(--red);
+  padding-top: 4px;
+}
+
+/* values */
+.values {
+  padding: 140px 40px 100px;
+  position: relative;
+  z-index: 2;
+}
+.valuesInner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.valuesH2 {
+  margin: 0;
+  font-size: 52px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.valueGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.valueCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.valueCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.valueCopy > :first-child {
+  font-size: 22px;
+  font-weight: 600;
+}
+.valueCopy > :last-child {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+@media (max-width: 1024px) {
+  .story,
+  .team,
+  .values {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .story,
+  .team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .storyRow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .storyH2 {
+    font-size: clamp(30px, 5vw, 48px);
+  }
+  .mv {
+    margin-top: 64px;
+  }
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .teamH2,
+  .valuesH2 {
+    font-size: clamp(36px, 6vw, 56px);
+  }
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .valueGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .story,
+  .team,
+  .values {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .story,
+  .team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .values {
+    padding-top: 80px;
+    padding-bottom: 64px;
+  }
+  .storyP {
+    font-size: 17px;
+  }
+  .mv {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 48px;
+    gap: 14px;
+  }
+  .mvCard {
+    padding: 32px 24px;
+  }
+  .mvText {
+    font-size: 21px;
+  }
+  .teamInner {
+    gap: 40px;
+  }
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+}

@@ -1,0 +1,144 @@
+/* Legal pages — values from privacy/terms/refund design inline styles. */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+  border-bottom: 1px solid rgba(var(--ink),0.06);
+}
+.grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.heroInner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 110px 0 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.h1 {
+  margin: 0;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+.lead {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 640px;
+}
+.updated {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--dim);
+}
+.body {
+  padding: 100px 40px 140px;
+  position: relative;
+  z-index: 2;
+}
+.grid2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  gap: 80px;
+  align-items: start;
+}
+.toc {
+  position: sticky;
+  top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tocLbl {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.others {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  scroll-margin-top: 110px;
+}
+.secHead {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+}
+.secHead > span {
+  font-size: 13px;
+  color: var(--red);
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 24px;
+  }
+  .heroInner {
+    padding: 80px 0 64px;
+  }
+  .h1 {
+    font-size: clamp(44px, 8vw, 80px);
+  }
+  .body {
+    padding: 64px 24px 100px;
+  }
+  .grid2 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 48px;
+  }
+  .toc {
+    position: static;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid rgba(var(--ink),0.08);
+    background: rgba(var(--ink),0.015);
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    padding: 0 16px;
+  }
+  .heroInner {
+    padding: 56px 0 48px;
+    gap: 20px;
+  }
+  .h1 {
+    font-size: clamp(34px, 10vw, 44px);
+  }
+  .lead {
+    font-size: 17px;
+  }
+  .body {
+    padding: 48px 16px 72px;
+  }
+  .sections {
+    gap: 48px;
+  }
+  .sections :global(h2) {
+    font-size: 22px;
+  }
+  .sections :global(p) {
+    font-size: 16px;
+  }
+}

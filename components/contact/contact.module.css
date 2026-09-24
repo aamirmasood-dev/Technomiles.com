@@ -1,0 +1,363 @@
+/* Contact page — values from contact.dc.html inline styles. */
+.main {
+  padding: 60px 40px 140px;
+  position: relative;
+  z-index: 2;
+}
+.mainGrid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: 40px;
+  align-items: start;
+}
+.formCard {
+  border-radius: 28px;
+  border: 1px solid rgba(var(--ink),0.08);
+  background: var(--surface-2);
+  padding: 48px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.formHead {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--red);
+}
+.formH2 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.err {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--code-k);
+}
+.form :global(.field[aria-invalid="true"]) {
+  border-color: var(--code-k);
+}
+.formErr {
+  margin: 0;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in oklab, var(--red) 60%, transparent);
+  background: color-mix(in oklab, var(--red) 12%, transparent);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--fg);
+}
+.submitRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 8px;
+}
+.consent {
+  font-size: 14px;
+  color: var(--dim);
+  max-width: 300px;
+  line-height: 1.5;
+}
+.consent a {
+  color: var(--muted);
+  text-decoration: underline;
+}
+.submit {
+  border: 0;
+  cursor: pointer;
+  height: 58px;
+  padding: 0 30px;
+  font-family: inherit;
+  flex: 0 0 auto;
+}
+.submit:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+/* success state */
+.sent {
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+}
+.ok {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sentH2 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+.sentP {
+  margin: 0;
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 400px;
+  line-height: 1.6;
+}
+.again {
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* info column */
+.infoCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.infoBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.infoLbl {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.infoMain {
+  font-size: 18px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.infoSub {
+  font-size: 16px;
+  color: var(--muted);
+}
+.infoText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--fg-2);
+}
+
+/* map */
+.mapSec {
+  padding: 0 40px 140px;
+  position: relative;
+  z-index: 2;
+}
+.map {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 440px;
+  border-radius: 28px;
+  border: 1px solid rgba(var(--ink),0.08);
+  background: var(--bg-3);
+  position: relative;
+  overflow: hidden;
+}
+.mapGrid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(var(--ink),0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--ink),0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.mapSvg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Live Google map, tinted to sit in the dark design; the styled grid shows while it loads. */
+/* Extended 180px upward so Google's place panel (top-left of the embed) sits outside the card. */
+.mapFrame {
+  position: absolute;
+  left: 0;
+  top: -180px;
+  width: 100%;
+  height: calc(100% + 180px);
+  border: 0;
+  filter: grayscale(1) contrast(0.95);
+  transition: opacity 0.6s ease;
+}
+/* dark theme: inverted greyscale map to sit in the dark design */
+:global(.theme-dark) .mapFrame {
+  filter: grayscale(1) invert(0.92) contrast(0.9) brightness(0.9);
+}
+.mapCard {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  padding: 24px 28px;
+  border-radius: 20px;
+  background: rgba(var(--bg-rgb),0.9);
+  border: 1px solid rgba(var(--ink),0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+}
+.mapCard > :nth-child(1) {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--red);
+}
+.mapCard > :nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
+.mapCard > :nth-child(3) {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* FAQ banner */
+.bannerSec {
+  padding: 0 40px 140px;
+  position: relative;
+  z-index: 2;
+}
+.banner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 48px 56px;
+  border-radius: 28px;
+  border: 1px solid rgba(var(--ink),0.08);
+  /* design omits this, so padding made it 112px wider than the 1280px column */
+  box-sizing: border-box;
+}
+.bannerCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bannerCopy > :first-child {
+  font-size: 28px;
+  font-weight: 700;
+}
+.bannerCopy > :last-child {
+  font-size: 17px;
+  color: var(--muted);
+}
+
+@media (max-width: 1024px) {
+  .main,
+  .mapSec,
+  .bannerSec {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .main {
+    padding-bottom: 100px;
+  }
+  .mapSec,
+  .bannerSec {
+    padding-bottom: 100px;
+  }
+  .mainGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .infoCol {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .main,
+  .mapSec,
+  .bannerSec {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main {
+    padding-top: 24px;
+    padding-bottom: 72px;
+  }
+  .mapSec,
+  .bannerSec {
+    padding-bottom: 72px;
+  }
+  .formCard {
+    padding: 28px 20px;
+    border-radius: 22px;
+  }
+  .formH2,
+  .sentH2 {
+    font-size: 26px;
+  }
+  .grid2 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .submitRow {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  .submit {
+    justify-content: center;
+  }
+  .sent {
+    min-height: 420px;
+  }
+  .infoCol {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .map {
+    height: 480px;
+    border-radius: 22px;
+  }
+  .mapCard {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 24px;
+  }
+  .bannerCopy > :first-child {
+    font-size: 22px;
+  }
+}
+
+/* light theme: card depth */
+.formCard,
+.map,
+.banner {
+  box-shadow: var(--card-shadow);
+}

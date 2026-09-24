@@ -1,0 +1,245 @@
+/* Values from the design's <header>/<nav> inline styles. */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(var(--bg-rgb),0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(var(--ink),0.06);
+  transition: transform 0.45s var(--ease-io);
+}
+.header[data-hide] {
+  transform: translateY(-101%);
+}
+
+.nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.menuActions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.cta {
+  height: 46px;
+  padding: 0 22px;
+  font-size: 14px;
+}
+
+.ddText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ddTitle {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--fg);
+}
+.ddLine {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- burger + full-screen menu (tablet / mobile) ---------- */
+.burger {
+  all: unset;
+  display: none;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(var(--ink),0.2);
+  flex: 0 0 48px;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+.burger:hover {
+  border-color: var(--red);
+}
+.burger i {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  height: 2px;
+  background: var(--fg);
+  transition: transform 0.45s var(--ease-io);
+}
+.burger i:first-child {
+  top: 19px;
+}
+.burger i:last-child {
+  top: 27px;
+}
+.burger[aria-expanded="true"] {
+  background: var(--red);
+  border-color: var(--red);
+}
+.burger[aria-expanded="true"] i:first-child {
+  transform: translateY(4px) rotate(45deg);
+}
+.burger[aria-expanded="true"] i:last-child {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.menu {
+  position: fixed;
+  inset: 0;
+  z-index: 49;
+  padding: calc(var(--nav-h) + 32px) 24px 32px;
+  background: var(--bg-2);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  animation: menuIn 0.6s var(--ease-io) both;
+}
+.menu[hidden] {
+  display: none;
+}
+.menuGrid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.menuList {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.menuList > li,
+.menuFoot {
+  animation: menuUp 0.8s var(--ease-out) both;
+  animation-delay: calc(0.15s + var(--i) * 0.07s);
+}
+.menuList > li {
+  border-bottom: 1px solid rgba(var(--ink),0.08);
+}
+.menuLink {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 18px 0;
+  font-size: clamp(30px, 8vw, 48px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  transition: color 0.3s, transform 0.4s var(--ease-out);
+}
+.menuLink span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--red);
+}
+.menuLink:hover,
+.menuLink[aria-current="page"] {
+  color: var(--red);
+}
+.menuLink:hover {
+  transform: translateX(8px);
+}
+.menuSub {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.menuSub a {
+  display: inline-block;
+  font-size: 13px;
+}
+.menuFoot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.menuFoot .mono {
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+@keyframes menuIn {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    padding: 0 24px;
+  }
+  /* .nav prefix: must beat the global .btn { display:inline-flex } */
+  .nav .links,
+  .nav .cta,
+  .nav .themeDesktop {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media (min-width: 1025px) {
+  .menu {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .nav {
+    padding: 0 16px;
+  }
+  .menu {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@keyframes menuUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
