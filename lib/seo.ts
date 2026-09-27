@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { company, type Service } from "@/content";
+import { company, type CaseStudy, type Service } from "@/content";
 import { SITE_URL } from "./routes";
 
 export const SITE_NAME = company.name;
@@ -63,4 +63,17 @@ export function serviceJsonLd(svc: Service) {
 
 export function serviceMetadata(svc: Service): Metadata {
   return pageMetadata({ title: svc.title, description: svc.lead, path: svc.route });
+}
+
+/** CreativeWork schema for a case study, credited to the Organization. */
+export function caseStudyJsonLd(cs: CaseStudy) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: `${cs.client} — Case study`,
+    description: cs.summary,
+    url: `${SITE_URL}/case-studies/${cs.slug}/`,
+    creator: { "@id": `${SITE_URL}/#organization` },
+    about: { "@type": "Organization", name: cs.client },
+  };
 }

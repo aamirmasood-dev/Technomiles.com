@@ -1,15 +1,15 @@
 import type { MetadataRoute } from "next";
-import { services } from "@/content";
+import { caseStudies, services } from "@/content";
 import { SITE_URL } from "@/lib/routes";
 
 // Generated once at build time (static export).
 export const dynamic = "force-static";
 
-const STATIC_ROUTES = ["/", "/about", "/contact", "/faq", "/privacy-policy", "/terms-and-conditions", "/refund-policy"];
+const STATIC_ROUTES = ["/", "/about", "/case-studies", "/contact", "/faq", "/privacy-policy", "/terms-and-conditions", "/refund-policy"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const routes = [...STATIC_ROUTES, ...services.map((s) => s.route)];
+  const routes = [...STATIC_ROUTES, ...services.map((s) => s.route), ...caseStudies.map((c) => `/case-studies/${c.slug}`)];
   return routes.map((path) => ({
     url: `${SITE_URL}${path === "/" ? "/" : `${path}/`}`,
     lastModified: now,

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { company, nav, services, telHref } from "@/content";
-import { isNavActive } from "@/lib/routes";
+import { isNavActive, normalizePath } from "@/lib/routes";
 import { Icon } from "@/components/ui/Icon";
 import { LogoSlot } from "@/components/ui/LogoSlot";
 import { ThemeToggle } from "./ThemeToggle";
@@ -89,7 +89,7 @@ export function SiteHeader() {
                 <div className="dd-menu">
                   <div className="dd-box">
                     {services.map((svc) => (
-                      <Link key={svc.slug} className="dd-i" href={svc.route} aria-current={pathname === svc.route ? "page" : undefined}>
+                      <Link key={svc.slug} className="dd-i" href={svc.route} aria-current={normalizePath(pathname) === svc.route ? "page" : undefined}>
                         <span className="dd-ic">
                           <Icon name={svc.slug} size={20} strokeWidth={1.8} />
                         </span>

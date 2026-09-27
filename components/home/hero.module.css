@@ -1,0 +1,223 @@
+/* Homepage hero (redesign): static, two columns — headline + service index panel. */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+  border-bottom: 1px solid rgba(var(--ink), 0.06);
+}
+.grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.glow {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  right: -300px;
+  top: -420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in oklab, var(--red) 18%, transparent) 0%, transparent 62%);
+  pointer-events: none;
+}
+.inner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: calc(100svh - 84px);
+  max-height: 900px;
+  padding: 72px 0 80px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: center;
+  gap: 64px;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 0;
+}
+.title {
+  margin: 0;
+  font-size: 84px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+.accent {
+  color: var(--red);
+}
+.lead {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 560px;
+}
+.btns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+/* service index panel */
+.panel {
+  border-radius: 28px;
+  border: 1px solid rgba(var(--ink), 0.08);
+  background: rgba(var(--surface-rgb), 0.7);
+  backdrop-filter: blur(12px);
+  padding: 10px;
+  box-shadow: var(--card-shadow);
+}
+.panelHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 18px 14px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.panelHead > :first-child {
+  color: var(--red);
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  transition: background 0.3s;
+}
+.row:hover {
+  background: rgba(var(--ink), 0.04);
+}
+.num {
+  font-size: 12px;
+  color: var(--dim);
+  width: 22px;
+  flex: 0 0 22px;
+}
+.ic {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(var(--ink), 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c);
+  transition: background 0.35s, border-color 0.35s, color 0.35s, transform 0.35s var(--ease-out);
+}
+.row:hover .ic {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+  transform: rotate(-8deg);
+}
+.rowText {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  flex: 1;
+}
+.rowTitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--fg);
+}
+.rowLine {
+  font-size: 13px;
+  color: var(--muted);
+}
+.rowArrow {
+  color: var(--red);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.3s, transform 0.3s;
+  flex: 0 0 auto;
+}
+.row:hover .rowArrow,
+.row:focus-visible .rowArrow {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: clamp(52px, 6.4vw, 84px);
+  }
+}
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 24px;
+  }
+  .inner {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    max-height: none;
+    padding: 64px 0 72px;
+    gap: 48px;
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    padding: 0 16px;
+  }
+  .inner {
+    padding: 48px 0 56px;
+    gap: 36px;
+  }
+  .copy {
+    gap: 24px;
+  }
+  .title {
+    font-size: clamp(36px, 10.5vw, 48px);
+  }
+  .lead {
+    font-size: 17px;
+  }
+  .btns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btns > * {
+    justify-content: center;
+  }
+  .panel {
+    border-radius: 22px;
+    padding: 6px;
+  }
+  .row {
+    padding: 14px 12px;
+    gap: 12px;
+  }
+  .num {
+    display: none;
+  }
+  .rowArrow {
+    opacity: 1;
+    transform: none;
+  }
+}

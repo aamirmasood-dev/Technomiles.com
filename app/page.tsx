@@ -8,6 +8,7 @@ import { Hero } from "@/components/home/Hero";
 import { Intro } from "@/components/home/Intro";
 import { ServicesBento } from "@/components/home/ServicesBento";
 import { Platforms } from "@/components/home/Platforms";
+import { WorkSection } from "@/components/home/WorkSection";
 import { Process } from "@/components/home/Process";
 import { FaqTeaser } from "@/components/home/FaqTeaser";
 
@@ -24,6 +25,7 @@ export default function HomePage() {
       <Intro />
       <ServicesBento />
       <Platforms />
+      <WorkSection />
       <Process />
       <Testimonials />
       <FaqTeaser />

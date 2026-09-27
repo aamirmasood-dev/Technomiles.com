@@ -1,0 +1,231 @@
+/* Case studies — cards, covers and tags (shared by the homepage section and /case-studies). */
+
+/* ---------- image placeholder ---------- */
+.cover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  min-height: 280px;
+  background: repeating-linear-gradient(135deg, rgba(var(--ink), 0.03) 0 12px, transparent 12px 24px), var(--surface-2);
+  border: 1px solid rgba(var(--ink), 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coverTall {
+  min-height: 520px;
+}
+.coverIni {
+  font-size: clamp(90px, 12vw, 160px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(var(--fg-rgb), 0.22);
+  transition: -webkit-text-stroke-color 0.5s, transform 0.8s var(--ease-out);
+}
+.coverLbl {
+  position: absolute;
+  left: 18px;
+  top: 16px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+.coverScan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: var(--red);
+  box-shadow: 0 0 18px 4px var(--red);
+  opacity: 0;
+}
+
+@keyframes coverScan {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+/* ---------- tags ---------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag {
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--ink), 0.12);
+  font-size: 13px;
+  color: var(--fg-2);
+  transition: border-color 0.3s, color 0.3s;
+}
+a.tag:hover {
+  border-color: var(--red);
+  color: var(--fg-strong);
+}
+
+/* ---------- card ---------- */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 28px;
+  border: 1px solid rgba(var(--ink), 0.08);
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
+  color: var(--fg);
+  transition: border-color 0.4s, transform 0.5s var(--ease-out);
+}
+.card:hover {
+  color: var(--fg);
+  border-color: color-mix(in oklab, var(--red) 60%, transparent);
+  transform: translateY(-6px);
+}
+.card:hover .coverIni {
+  -webkit-text-stroke-color: var(--red);
+  transform: scale(1.06);
+}
+.card:hover .coverScan {
+  animation: coverScan 1.2s cubic-bezier(0.77, 0, 0.18, 1);
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 12px 12px;
+  min-width: 0;
+}
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.cardMeta > :first-child {
+  color: var(--red);
+}
+.cardTitle {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.cardSummary {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.cardCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+  font-weight: 700;
+  color: var(--fg);
+}
+.cardCtaIc {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(var(--ink), 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s var(--ease-out);
+}
+.card:hover .cardCtaIc {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+  transform: rotate(-45deg);
+}
+.miniResults {
+  margin: 4px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(var(--ink), 0.08);
+}
+.miniResults dt {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--red);
+}
+.miniResults dd {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* featured = two columns */
+.featured {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: stretch;
+  gap: 32px;
+}
+.featured .cardCover {
+  min-height: 460px;
+}
+.featured .cardBody {
+  justify-content: center;
+  padding: 24px 24px 24px 0;
+}
+.featured .cardTitle {
+  font-size: 32px;
+}
+
+@media (max-width: 1024px) {
+  .featured {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .featured .cardCover {
+    min-height: 320px;
+  }
+  .featured .cardBody {
+    padding: 8px 12px 12px;
+  }
+  .coverTall {
+    min-height: 380px;
+  }
+}
+@media (max-width: 640px) {
+  .card {
+    padding: 10px;
+    border-radius: 22px;
+  }
+  .cover,
+  .featured .cardCover {
+    min-height: 220px;
+  }
+  .coverTall {
+    min-height: 260px;
+  }
+  .cardTitle,
+  .featured .cardTitle {
+    font-size: 22px;
+  }
+  .miniResults {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

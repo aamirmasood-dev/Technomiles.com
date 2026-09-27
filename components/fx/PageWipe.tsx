@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { wipeLabel } from "@/lib/routes";
+import { normalizePath, wipeLabel } from "@/lib/routes";
 
 /**
  * Red-then-black vertical wipe that plays when an inner page mounts.
@@ -15,7 +15,7 @@ export function PageWipe() {
 
   // Inner pages: hero load-in (.in1–.in4) waits for `ready`, added 800ms in, as in the design.
   useEffect(() => {
-    if (pathname === "/") return;
+    if (normalizePath(pathname) === "/") return;
     const root = document.documentElement;
     if (window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
       root.classList.add("ready");
@@ -34,7 +34,7 @@ export function PageWipe() {
     };
   }, [pathname]);
 
-  if (pathname === "/" || phase === "done") return null;
+  if (normalizePath(pathname) === "/" || phase === "done") return null;
   const label = wipeLabel(pathname);
 
   return (

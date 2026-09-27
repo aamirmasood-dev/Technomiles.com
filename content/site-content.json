@@ -32,6 +32,10 @@
       "dropdown": true
     },
     {
+      "label": "Case Studies",
+      "href": "/case-studies"
+    },
+    {
       "label": "FAQ",
       "href": "/faq"
     },
@@ -50,6 +54,10 @@
       {
         "label": "About us",
         "href": "/about"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
       },
       {
         "label": "FAQ",
@@ -349,13 +357,6 @@
     }
   ],
   "home": {
-    "heroRotatingWords": [
-      "apps.",
-      "stores.",
-      "brands.",
-      "campaigns.",
-      "rankings."
-    ],
     "heroSub": "Software, online stores, brands and campaigns — designed, built and grown by one team in Rawalpindi.",
     "intro": "Technomiles is a digital agency that turns ideas into products people use. We build custom software and fast websites, run online stores, design memorable brands and grow them with marketing and SEO — for clients in Pakistan, the UK and the US.",
     "introHighlightWords": [
@@ -462,33 +463,13 @@
     ],
     "hero": {
       "meta": "DIGITAL AGENCY · PK · UK · US",
-      "titleLead": "We build",
+      "title": "We turn ideas into",
+      "titleAccent": "products people use.",
       "ctaPrimary": "Book a free consultation",
       "ctaSecondary": "Explore services",
-      "scrollHint": "SCROLL TO EXPLORE",
       "status": "TAKING NEW PROJECTS",
-      "chips": [
-        {
-          "slug": "custom-development",
-          "label": "Custom Development"
-        },
-        {
-          "slug": "ecommerce",
-          "label": "E-commerce"
-        },
-        {
-          "slug": "design-studio",
-          "label": "Design Studio"
-        },
-        {
-          "slug": "social-media-marketing",
-          "label": "Social Media Marketing"
-        },
-        {
-          "slug": "seo",
-          "label": "SEO"
-        }
-      ]
+      "panelLabel": "WHAT WE DO",
+      "panelCount": "5 SERVICES"
     },
     "sections": {
       "intro": {
@@ -519,6 +500,12 @@
         "label": "FAQ",
         "title": "Quick answers.",
         "link": "All FAQs"
+      },
+      "work": {
+        "label": "SELECTED WORK",
+        "title": "Case studies.",
+        "text": "A closer look at recent projects — what the client needed, what we built and what changed.",
+        "link": "All case studies"
       }
     },
     "bento": {
@@ -1940,5 +1927,84 @@
     "ctaPrimary": "Back to home",
     "ctaSecondary": "Contact us",
     "servicesLabel": "OR EXPLORE OUR SERVICES"
+  },
+  "caseStudies": [
+    {
+      "slug": "jawa-jewelers",
+      "client": "Jawa Jewelers",
+      "initials": "JJ",
+      "industry": "Jewellery",
+      "title": "[Project headline — e.g. what we built for Jawa Jewelers]",
+      "summary": "[One or two sentences summarising the project and its outcome.]",
+      "location": "[Location]",
+      "year": "[Year]",
+      "duration": "[Project length]",
+      "services": [],
+      "overview": [
+        "[Overview — who Jawa Jewelers are and what they needed from the project.]"
+      ],
+      "challenge": [
+        "[The challenge — the problem or goal that started the project.]"
+      ],
+      "solution": [
+        "[The solution — what Technomiles designed and built, and how it works.]"
+      ],
+      "deliverables": [
+        "[Deliverable 1]",
+        "[Deliverable 2]",
+        "[Deliverable 3]",
+        "[Deliverable 4]"
+      ],
+      "results": [
+        {
+          "value": "[00%]",
+          "label": "[Result — e.g. increase in online sales]"
+        },
+        {
+          "value": "[00]",
+          "label": "[Result — e.g. products listed]"
+        },
+        {
+          "value": "[00x]",
+          "label": "[Result — e.g. faster order handling]"
+        }
+      ],
+      "gallery": [
+        "[Project image — e.g. homepage]",
+        "[Project image — e.g. product page]",
+        "[Project image — e.g. mobile view]",
+        "[Project image — e.g. brand details]"
+      ],
+      "testimonialCompany": "Jawa Jewelers"
+    }
+  ],
+  "caseStudiesPage": {
+    "hero": {
+      "crumb": "CASE STUDIES",
+      "title": "Work that",
+      "titleAccent": "speaks.",
+      "lead": "Selected projects across software, e-commerce, design and marketing — what the client needed, what we built and what changed.",
+      "core": "WORK"
+    },
+    "cardCta": "Read case study",
+    "imagePlaceholder": "[ PROJECT IMAGE ]",
+    "servicesPlaceholder": "[Add services used]",
+    "labels": {
+      "client": "CLIENT",
+      "industry": "INDUSTRY",
+      "location": "LOCATION",
+      "year": "YEAR",
+      "duration": "DURATION",
+      "services": "SERVICES",
+      "overview": "OVERVIEW",
+      "challenge": "THE CHALLENGE",
+      "solution": "THE SOLUTION",
+      "deliverables": "WHAT WE DELIVERED",
+      "results": "RESULTS",
+      "gallery": "GALLERY",
+      "testimonial": "IN THE CLIENT'S WORDS",
+      "more": "MORE WORK",
+      "all": "All case studies"
+    }
   }
 }

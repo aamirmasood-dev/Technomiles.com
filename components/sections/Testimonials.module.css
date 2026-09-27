@@ -73,12 +73,6 @@
 .count > span {
   color: var(--fg);
 }
-.marquees {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-top: 120px;
-}
 
 @media (max-width: 1024px) {
   .section {
@@ -91,9 +85,6 @@
   }
   .title {
     font-size: clamp(40px, 7vw, 60px);
-  }
-  .marquees {
-    margin-top: 80px;
   }
 }
 @media (max-width: 640px) {
@@ -137,8 +128,5 @@
   }
   .controls :global(.tdots) {
     flex-wrap: wrap;
-  }
-  .marquees :global(.cl-name) {
-    font-size: 26px;
   }
 }

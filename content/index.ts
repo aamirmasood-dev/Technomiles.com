@@ -21,6 +21,8 @@ export const {
   servicePageShared,
   sharedProcessSteps,
   notFound,
+  caseStudies,
+  caseStudiesPage,
   whyUs,
 } = content;
 
@@ -28,6 +30,10 @@ export function getService(slug: ServiceSlug): Service {
   const s = services.find((x) => x.slug === slug);
   if (!s) throw new Error(`Unknown service: ${slug}`);
   return s;
+}
+
+export function getCaseStudy(slug: string) {
+  return caseStudies.find((c) => c.slug === slug);
 }
 
 /** "+92 334 547 2255" → "tel:+923345472255" */

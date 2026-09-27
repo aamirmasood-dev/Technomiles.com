@@ -59,7 +59,6 @@ export interface Testimonial {
 }
 
 export interface HomeContent {
-  heroRotatingWords: string[];
   heroSub: string;
   intro: string;
   introHighlightWords: string[];
@@ -69,12 +68,13 @@ export interface HomeContent {
   faqs: QA[];
   hero: {
     meta: string;
-    titleLead: string;
+    title: string;
+    titleAccent: string;
     ctaPrimary: string;
     ctaSecondary: string;
-    scrollHint: string;
     status: string;
-    chips: { slug: ServiceSlug; label: string }[];
+    panelLabel: string;
+    panelCount: string;
   };
   sections: {
     intro: { label: string; link: string };
@@ -89,6 +89,7 @@ export interface HomeContent {
       finalCta: string;
     };
     faq: { label: string; title: string; link: string };
+    work: { label: string; title: string; text: string; link: string };
   };
   bento: {
     feed: { badge: string; event: string; time: string }[];
@@ -387,6 +388,41 @@ export interface TestimonialsSectionContent {
   text: string;
 }
 
+export interface CaseStudy {
+  slug: string;
+  client: string;
+  initials: string;
+  industry: string;
+  title: string;
+  summary: string;
+  location: string;
+  year: string;
+  duration: string;
+  /** Service slugs used on the project (empty until confirmed by the owner). */
+  services: ServiceSlug[];
+  overview: string[];
+  challenge: string[];
+  solution: string[];
+  deliverables: string[];
+  results: { value: string; label: string }[];
+  /** Captions for gallery image slots (placeholders until real images are supplied). */
+  gallery: string[];
+  /** Matches a `testimonials[].company` to show the client's quote. */
+  testimonialCompany?: string;
+}
+
+export interface CaseStudiesPageContent {
+  hero: PageHeroCopy & { core: string };
+  cardCta: string;
+  imagePlaceholder: string;
+  servicesPlaceholder: string;
+  labels: Record<
+    | "client" | "industry" | "location" | "year" | "duration" | "services"
+    | "overview" | "challenge" | "solution" | "deliverables" | "results" | "gallery" | "testimonial" | "more" | "all",
+    string
+  >;
+}
+
 export interface SiteContent {
   company: Company;
   nav: NavItem[];
@@ -403,6 +439,8 @@ export interface SiteContent {
   legalShared: { crumb: string; updatedLabel: string; tocLabel: string };
   servicePageExtras: ServicePageExtras;
   servicePageShared: { crumbServices: string; faqLabel: string; faqLink: string; otherLabel: string };
+  caseStudies: CaseStudy[];
+  caseStudiesPage: CaseStudiesPageContent;
   notFound: {
     code: string;
     crumb: string;
