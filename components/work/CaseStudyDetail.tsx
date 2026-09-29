@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import { caseStudies, caseStudiesPage as copy, testimonials, type CaseStudy } from "@/content";
 import { Crumb } from "@/components/ui/Crumb";
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Icon } from "@/components/ui/Icon";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { CaseCover } from "./CaseCover";
 import { CaseStudyCard } from "./CaseStudyCard";
@@ -46,6 +47,16 @@ export function CaseStudyDetail({ cs }: { cs: CaseStudy }) {
                 <dd>{v}</dd>
               </div>
             ))}
+            {cs.url && (
+              <div className={s.factWide}>
+                <dt className="mono">{L.website}</dt>
+                <dd>
+                  <a className="arrow-link" href={cs.url} target="_blank" rel="noopener noreferrer">
+                    {cs.url.replace(/^https?:\/\/(www\.)?/, "")} <Icon name="arrow" />
+                  </a>
+                </dd>
+              </div>
+            )}
             <div className={s.factWide}>
               <dt className="mono">{L.services}</dt>
               <dd className={s.tags}>
@@ -56,9 +67,9 @@ export function CaseStudyDetail({ cs }: { cs: CaseStudy }) {
         </div>
       </section>
 
-      <section className={s.coverSec} aria-hidden="true">
+      <section className={s.coverSec}>
         <div data-rv="scan" className={s.coverWrap} data-cur="view">
-          <CaseCover initials={cs.initials} tall />
+          <CaseCover initials={cs.initials} src={cs.cover} alt={`${cs.client} website homepage`} tall priority />
         </div>
       </section>
 
@@ -113,10 +124,10 @@ export function CaseStudyDetail({ cs }: { cs: CaseStudy }) {
             {L.gallery}
           </h2>
           <div className={s.gallery}>
-            {cs.gallery.map((caption, i) => (
+            {cs.gallery.map((g, i) => (
               <figure key={i} className={s.shot} data-rv="scale" style={d((i % 2) * 0.1)}>
-                <CaseCover initials={cs.initials} label={copy.imagePlaceholder} className={s.shotImg} />
-                <figcaption className={s.caption}>{caption}</figcaption>
+                <CaseCover initials={cs.initials} src={g.src} alt={`${cs.client} — ${g.caption}`} fit={g.fit} className={s.shotImg} />
+                <figcaption className={s.caption}>{g.caption}</figcaption>
               </figure>
             ))}
           </div>

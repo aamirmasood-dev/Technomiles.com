@@ -405,8 +405,12 @@ export interface CaseStudy {
   solution: string[];
   deliverables: string[];
   results: { value: string; label: string }[];
-  /** Captions for gallery image slots (placeholders until real images are supplied). */
-  gallery: string[];
+  /** Live project URL. */
+  url?: string;
+  /** Cover image path under /public (e.g. "/work/<slug>/cover.jpg"). */
+  cover?: string;
+  /** Gallery screenshots; `fit: "contain"` shows tall (mobile) shots whole. */
+  gallery: { src: string; caption: string; fit?: "cover" | "contain" }[];
   /** Matches a `testimonials[].company` to show the client's quote. */
   testimonialCompany?: string;
 }
@@ -418,7 +422,8 @@ export interface CaseStudiesPageContent {
   servicesPlaceholder: string;
   labels: Record<
     | "client" | "industry" | "location" | "year" | "duration" | "services"
-    | "overview" | "challenge" | "solution" | "deliverables" | "results" | "gallery" | "testimonial" | "more" | "all",
+    | "overview" | "challenge" | "solution" | "deliverables" | "results" | "gallery" | "testimonial" | "more" | "all"
+    | "website" | "visit",
     string
   >;
 }

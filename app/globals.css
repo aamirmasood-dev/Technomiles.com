@@ -466,3 +466,7 @@ select.field{line-height:56px}
 /* open accordion icon sits on red → white bars in both themes */
 .acc.on .acc-ic::before,.acc.on .acc-ic::after{background:#fff}
 .step:hover .step-dot{color:#fff}
+
+/* Logo artwork is light-on-transparent: darken it on the light theme */
+.logo-img{display:block;height:auto;transition:filter .5s ease}
+:root:not(.theme-dark) .logo-img{filter:brightness(0) saturate(0) opacity(.9)}

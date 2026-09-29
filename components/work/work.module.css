@@ -229,3 +229,47 @@ a.tag:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ---------- screenshot in a browser frame ---------- */
+.shotFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: var(--surface-2);
+}
+.chrome {
+  flex: 0 0 34px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(var(--ink), 0.06);
+}
+.chrome i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--line-strong);
+}
+.chrome i:first-child {
+  background: var(--red);
+}
+.imgBox {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+.img {
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 1.2s var(--ease-out);
+}
+.img.contain {
+  object-fit: contain;
+  object-position: center;
+  background: repeating-linear-gradient(135deg, rgba(var(--ink), 0.03) 0 12px, transparent 12px 24px);
+}
+.card:hover .img:not(.contain) {
+  transform: scale(1.03);
+}

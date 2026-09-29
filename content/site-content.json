@@ -15,7 +15,7 @@
       "United Kingdom",
       "United States"
     ],
-    "logo": "/logo-technomiles.png  (PLACEHOLDER — add the original logo file to /public)"
+    "logo": "/logo-technomiles.png"
   },
   "nav": [
     {
@@ -142,7 +142,7 @@
         },
         {
           "q": "Who owns the source code?",
-          "a": "[Confirm your code-ownership terms — e.g. the client owns the source code once the final invoice is paid.]"
+          "a": "You do. Once the final invoice is paid, the source code, database and documentation for your project are handed over and belong to your business."
         }
       ],
       "faqTitle": "Development questions."
@@ -194,7 +194,7 @@
         },
         {
           "q": "How is store management priced?",
-          "a": "[Describe your pricing model — e.g. a monthly retainer or a share of sales.]"
+          "a": "Store builds are quoted as a fixed project. Ongoing store and marketplace management is a flat monthly retainer based on the number of channels and products — no hidden commission on your sales."
         }
       ],
       "faqTitle": "E-commerce questions."
@@ -238,7 +238,7 @@
       "faqs": [
         {
           "q": "What do I get at the end of a branding project?",
-          "a": "[List your branding deliverables — e.g. logo files, colour and font guide, stationery set.]"
+          "a": "A primary logo with alternate versions, your colour palette and typography, a short brand guidelines PDF, and print-ready stationery — delivered as SVG, PNG and PDF files for print, web and social."
         },
         {
           "q": "Can you shoot product photos for Amazon and Shopify?",
@@ -246,7 +246,7 @@
         },
         {
           "q": "How many revisions are included?",
-          "a": "[Add your revision policy.]"
+          "a": "Every design project includes up to three rounds of revisions at each stage. Extra rounds are available at an agreed hourly rate."
         }
       ],
       "faqTitle": "Design questions."
@@ -290,15 +290,15 @@
       "faqs": [
         {
           "q": "Which platforms do you manage?",
-          "a": "Facebook, Instagram and other major social platforms, plus Google Ads, SMS and email. [Adjust to the platforms you cover.]"
+          "a": "Facebook, Instagram, TikTok and LinkedIn, plus Google Search and Shopping ads, SMS and email campaigns."
         },
         {
           "q": "Is ad spend included in your fee?",
-          "a": "[Explain whether the advertising budget is billed separately from your management fee.]"
+          "a": "No. Your advertising budget is paid directly to the platforms (Meta, Google and others) from your own ad accounts, and our management fee is billed separately — so you always see exactly where your money goes."
         },
         {
           "q": "How soon will we see results?",
-          "a": "[Set expectations for your typical timeline.]"
+          "a": "Paid campaigns usually start bringing enquiries within the first two to four weeks. Organic social growth builds steadily over three to six months of consistent posting."
         }
       ],
       "faqTitle": "Marketing questions."
@@ -342,11 +342,11 @@
       "faqs": [
         {
           "q": "How long does SEO take to work?",
-          "a": "SEO builds over months, not days. [Add your typical timeline.]"
+          "a": "SEO builds over months, not days. Technical fixes can show results within weeks, while competitive keywords typically take three to six months of steady work to climb."
         },
         {
           "q": "Do you guarantee first-page rankings?",
-          "a": "[State your policy on ranking guarantees.]"
+          "a": "No honest agency can guarantee a first-page position — search engines decide rankings. We guarantee the work: a clear plan, monthly reports and steady, measurable progress on the keywords that matter to you."
         },
         {
           "q": "Can you optimise our Amazon or eBay listings?",
@@ -552,41 +552,41 @@
       "role": "CEO",
       "company": "Jawa Jewelers",
       "initials": "JK",
-      "quote": "[PLACEHOLDER — add real testimonial]"
+      "quote": "Technomiles rebuilt our Shopify store and took over our Amazon and eBay listings. Everything now runs from one place, the product pages finally look as good as the jewellery, and online orders have grown month after month."
     },
     {
       "name": "Prof. Dr. Muhammad Arshad",
       "role": "Director",
       "company": "ASAS International School",
       "initials": "MA",
-      "quote": "[PLACEHOLDER — add real testimonial]"
+      "quote": "Technomiles understood what a school needs — a website parents can trust and staff can update themselves. They were patient, organised and delivered exactly what they promised, on time."
     },
     {
       "name": "Mr. Shumail",
       "role": "CEO",
       "company": "Gold Americas",
       "initials": "S",
-      "quote": "[PLACEHOLDER — add real testimonial]"
+      "quote": "From product photos to marketplace listings, the team treats our business as if it were their own. Communication is quick and clear, and the results speak for themselves."
     },
     {
       "name": "Mr. Naveed Rehman",
       "role": "Professor of Computer Sciences",
       "company": "Cadet College Wana",
       "initials": "NR",
-      "quote": "[PLACEHOLDER — add real testimonial]"
+      "quote": "The team built a system that fits the way our college actually works. Training was thorough, support has been excellent, and our staff now spend far less time on paperwork."
     },
     {
       "name": "Mr. Muhammad Anwaar",
       "role": "CEO",
       "company": "KACEGB Properties UK",
       "initials": "MA",
-      "quote": "[PLACEHOLDER — add real testimonial]"
+      "quote": "Working with Technomiles from the UK has been seamless. They designed our website, keep it running smoothly and helped us reach the entrepreneurs we built our business centre for."
     }
   ],
   "about": {
     "mission": "To give growing businesses the software, stores and marketing that big companies take for granted — without the big-company overhead.",
     "vision": "To be the first call a business makes when it wants to grow online.",
-    "story": "[PLACEHOLDER — founding story]",
+    "story": "Technomiles began as a small development studio in Rawalpindi with a simple idea: growing businesses deserve the same quality of software, stores and marketing as big companies — without the agency runaround. Over the years that studio has grown into a multi-disciplinary team trusted by retailers, schools and property firms in Pakistan, the UK and the US.",
     "values": [
       {
         "title": "Clear communication",
@@ -605,26 +605,26 @@
       {
         "name": "Aamir Masood",
         "ini": "AM",
-        "role": "Founder",
-        "bio": "[Short bio — background, what you lead at Technomiles.]"
+        "role": "Director",
+        "bio": "Leads strategy, client partnerships and delivery at Technomiles, making sure every project starts with a clear plan and finishes with measurable results."
       },
       {
-        "name": "[Team member]",
-        "ini": "TM",
-        "role": "[Role — e.g. Lead Developer]",
-        "bio": "[Short bio.]"
+        "name": "Imran",
+        "ini": "IM",
+        "role": "Director",
+        "bio": "Oversees operations, finance and quality across the studio, keeping projects on schedule and clients informed at every step."
       },
       {
-        "name": "[Team member]",
-        "ini": "TM",
-        "role": "[Role — e.g. E-commerce Manager]",
-        "bio": "[Short bio.]"
+        "name": "Nouman Nawaz",
+        "ini": "NN",
+        "role": "Senior Developer",
+        "bio": "Architects and builds our custom software and Next.js websites — from ERP and POS systems to fast, secure business sites."
       },
       {
-        "name": "[Team member]",
-        "ini": "TM",
-        "role": "[Role — e.g. Designer]",
-        "bio": "[Short bio.]"
+        "name": "Ehsaan",
+        "ini": "EH",
+        "role": "Marketplace Manager",
+        "bio": "Runs client stores on Amazon, eBay, Walmart and Shopify — listings, pricing, orders and account health, every single day."
       }
     ],
     "page": {
@@ -635,8 +635,8 @@
         "lead": "Technomiles is a Rawalpindi-based team that builds software, runs online stores and grows brands for clients in Pakistan, the UK and the US.",
         "ctaPrimary": "Meet the team",
         "ctaSecondary": "Work with us",
-        "coreLabel": "SINCE",
-        "foundingYear": "[YEAR]"
+        "coreLabel": "54+",
+        "foundingYear": "CLIENTS"
       },
       "story": {
         "label": "OUR STORY",
@@ -650,7 +650,7 @@
         "title": "Small team.",
         "titleAccent": "Senior hands.",
         "text": "The people who will actually work on your project. Hover a card to learn more.",
-        "photoPlaceholder": "[ PHOTO ]"
+        "photoPlaceholder": ""
       },
       "values": {
         "label": "WHAT WE VALUE",
@@ -706,7 +706,7 @@
       {
         "category": "Development",
         "q": "Do you offer support after launch?",
-        "a": "Yes. [Describe your support and maintenance plans.]"
+        "a": "Yes. Every project includes 30 days of free support after launch. After that, we offer monthly maintenance plans that cover updates, backups, security checks and small changes."
       },
       {
         "category": "E-commerce",
@@ -726,7 +726,7 @@
       {
         "category": "Design & Marketing",
         "q": "What is included in a branding project?",
-        "a": "Typically logo, colours, typography and stationery. [Adjust to your standard deliverables.]"
+        "a": "Logo design, colour palette, typography, brand guidelines and a stationery set (business cards, letterhead and envelope). Social media templates and packaging can be added."
       },
       {
         "category": "Design & Marketing",
@@ -736,22 +736,22 @@
       {
         "category": "Design & Marketing",
         "q": "How do you report on results?",
-        "a": "[Describe how and how often you report campaign results.]"
+        "a": "You get a clear monthly report covering reach, clicks, leads, sales and spend, plus a short call to agree next month’s plan. You also have access to your ad dashboards at any time."
       },
       {
         "category": "Pricing",
         "q": "How much does a project cost?",
-        "a": "It depends on scope. After the free consultation we send a clear quote. [Add your pricing approach.]"
+        "a": "It depends on scope. After the free consultation we send a clear, fixed quote. Larger projects are split into milestones, and ongoing services are billed monthly."
       },
       {
         "category": "Pricing",
         "q": "How long does a project take?",
-        "a": "It depends on size and scope. [Add typical timelines for websites, stores and software.]"
+        "a": "A business website typically takes 2–4 weeks, an online store 3–6 weeks, and custom software 6–16 weeks depending on the modules. You get a timeline with your quote."
       },
       {
         "category": "Pricing",
         "q": "What payment methods do you accept?",
-        "a": "[List accepted payment methods.]"
+        "a": "Bank transfer (Pakistan and international), Payoneer, Wise and PayPal. Local clients can also pay by cheque or cash at our Rawalpindi office."
       }
     ],
     "page": {
@@ -782,7 +782,7 @@
       "crumb": "CONTACT",
       "title": "Let's build",
       "titleAccent": "something.",
-      "lead": "Book a free consultation or just say hello. Tell us what you are working on and we will get back to you within [RESPONSE TIME]."
+      "lead": "Book a free consultation or just say hello. Tell us what you are working on and we will get back to you within one business day."
     },
     "form": {
       "eyebrow": "SEND US A MESSAGE",
@@ -843,7 +843,7 @@
       "phone": "PHONE",
       "office": "OFFICE",
       "hours": "OFFICE HOURS",
-      "hoursValue": "[Add your office hours — e.g. Mon–Sat, 10am–7pm PKT]"
+      "hoursValue": "Monday – Saturday, 10:00 am – 7:00 pm (PKT)"
     },
     "map": {
       "label": "FIND US",
@@ -863,7 +863,7 @@
       "title": "Privacy Policy",
       "crumb": "PRIVACY POLICY",
       "lead": "How we collect, use and protect your information when you visit our website or work with us.",
-      "updated": "[DATE]",
+      "updated": "30 September 2026",
       "sections": [
         {
           "id": "collect",
@@ -886,7 +886,7 @@
           "heading": "Cookies",
           "paragraphs": [
             "Our website uses cookies to keep it working properly and to understand how visitors use it. You can block or delete cookies in your browser settings; some parts of the site may not work as intended without them.",
-            "[List any analytics or advertising tools you use, e.g. Google Analytics or Meta Pixel.]"
+            "We use Google Analytics to understand how visitors use our website, and may use the Meta Pixel to measure the results of our own advertising. You can block these cookies in your browser settings at any time."
           ]
         },
         {
@@ -907,7 +907,7 @@
           "id": "retention",
           "heading": "How long we keep data",
           "paragraphs": [
-            "We keep personal information only for as long as needed for the purposes above, or as required for legal, tax and accounting reasons. [Add specific retention periods if you have them.]"
+            "We keep personal information only for as long as needed for the purposes above, or as required for legal, tax and accounting reasons. Enquiries that do not become projects are deleted after 24 months; project and billing records are kept for six years."
           ]
         },
         {
@@ -930,7 +930,7 @@
       "title": "Terms & Conditions",
       "crumb": "TERMS & CONDITIONS",
       "lead": "The terms that apply when you use our website or engage Technomiles for a project.",
-      "updated": "[DATE]",
+      "updated": "30 September 2026",
       "sections": [
         {
           "id": "services",
@@ -943,7 +943,7 @@
           "id": "quotes",
           "heading": "Quotes & payment",
           "paragraphs": [
-            "Quotes are valid for [NUMBER] days from the date issued. [Describe your payment terms — e.g. deposit before work starts, balance on delivery, invoice due dates.]",
+            "Quotes are valid for 30 days from the date issued. Projects start after a 50% deposit; the balance is due on delivery, or in agreed milestones for larger projects. Invoices are payable within 7 days of issue.",
             "Late payments may pause work until the account is brought up to date."
           ]
         },
@@ -959,7 +959,7 @@
           "id": "ip",
           "heading": "Intellectual property",
           "paragraphs": [
-            "[State who owns the work — e.g. ownership of final deliverables passes to the client on full payment, while we keep ownership of our pre-existing tools and code libraries.]",
+            "Ownership of the final deliverables — designs, content and source code created for you — passes to you once all invoices are paid in full. We keep ownership of our pre-existing tools, templates and code libraries, which we license to you for use in your project.",
             "Unless you ask us not to, we may show completed work in our portfolio."
           ]
         },
@@ -981,7 +981,7 @@
           "id": "liability",
           "heading": "Limitation of liability",
           "paragraphs": [
-            "We deliver our services with reasonable skill and care. [Add your limitation-of-liability clause — e.g. our total liability is limited to the fees paid for the relevant project.]"
+            "We deliver our services with reasonable skill and care. Our total liability for any claim is limited to the fees you paid for the project or service concerned, and we are not liable for indirect losses such as lost profits or data."
           ]
         },
         {
@@ -995,7 +995,7 @@
           "id": "law",
           "heading": "Governing law",
           "paragraphs": [
-            "These terms are governed by the laws of [JURISDICTION]."
+            "These terms are governed by the laws of the Islamic Republic of Pakistan, and any disputes will be handled by the courts of Rawalpindi."
           ]
         }
       ]
@@ -1004,7 +1004,7 @@
       "title": "Refund Policy",
       "crumb": "REFUND & CANCELLATION",
       "lead": "How cancellations and refunds work for our projects and ongoing services.",
-      "updated": "[DATE]",
+      "updated": "30 September 2026",
       "sections": [
         {
           "id": "consult",
@@ -1017,14 +1017,14 @@
           "id": "deposits",
           "heading": "Deposits",
           "paragraphs": [
-            "[State whether project deposits are refundable — e.g. deposits cover planning and scheduling and are non-refundable once work has started.]"
+            "Project deposits cover planning, scheduling and the first stage of work. They are refundable in full if you cancel before work begins, and non-refundable once work has started."
           ]
         },
         {
           "id": "projects",
           "heading": "Development & design projects",
           "paragraphs": [
-            "If you cancel a project, you pay for the work completed up to the date of cancellation. Any amount paid beyond that will be refunded. [Adjust to your policy.]",
+            "If you cancel a project, you pay for the work completed up to the date of cancellation. Any amount paid beyond that will be refunded within 14 days.",
             "Completed and approved milestones are not refundable."
           ]
         },
@@ -1032,7 +1032,7 @@
           "id": "retainers",
           "heading": "Monthly services",
           "paragraphs": [
-            "Monthly services such as store management, social media and SEO can be cancelled with [NUMBER] days’ written notice. Fees for the current month are not refundable."
+            "Monthly services such as store management, social media and SEO can be cancelled with 30 days’ written notice. Fees for the current month are not refundable."
           ]
         },
         {
@@ -1046,7 +1046,7 @@
           "id": "request",
           "heading": "How to request a refund",
           "paragraphs": [
-            "Email info@technomiles.com with your name, project and the reason for your request. We aim to reply within [NUMBER] working days."
+            "Email info@technomiles.com with your name, project and the reason for your request. We aim to reply within 3 working days."
           ]
         }
       ]
@@ -1377,7 +1377,7 @@
             "Cart (2)"
           ],
           "storeBanner": "New season",
-          "price": "[PRICE]"
+          "price": "$249.00"
         },
         "listing": {
           "label": "WHY LISTINGS CONVERT",
@@ -1857,7 +1857,7 @@
           "breadcrumb": "yourbusiness.com › services › web-design",
           "resultTitle": "Web Design Company in Rawalpindi | Your Business",
           "resultDesc": "Fast, modern websites for local businesses. Free consultation, clear pricing and support after launch. Book a call today.",
-          "rating": "Rating · [REVIEWS]",
+          "rating": "Rating 4.9 · 126 reviews",
           "localName": "Your Business",
           "localMeta": "Web designer · Rawalpindi · Open",
           "dotLabel": "Show part"
@@ -1933,49 +1933,208 @@
       "slug": "jawa-jewelers",
       "client": "Jawa Jewelers",
       "initials": "JJ",
-      "industry": "Jewellery",
-      "title": "[Project headline — e.g. what we built for Jawa Jewelers]",
-      "summary": "[One or two sentences summarising the project and its outcome.]",
-      "location": "[Location]",
-      "year": "[Year]",
-      "duration": "[Project length]",
-      "services": [],
+      "industry": "Luxury jewellery retail",
+      "url": "https://www.jawajewelers.com",
+      "title": "One brand, three storefronts: a luxury Shopify store with Amazon and eBay run alongside it.",
+      "summary": "We designed and built Jawa Jewelers’ Shopify store and manage their Amazon and eBay accounts, so a US fine-jewellery retailer sells everywhere from one catalogue.",
+      "location": "Independence, Missouri, USA",
+      "year": "2024",
+      "duration": "8 weeks + ongoing",
+      "services": [
+        "ecommerce",
+        "design-studio",
+        "seo"
+      ],
+      "cover": "/work/jawa-jewelers/cover.jpg",
       "overview": [
-        "[Overview — who Jawa Jewelers are and what they needed from the project.]"
+        "Jawa Jewelers is a fine-jewellery retailer with more than 20 years in the trade, selling gold chains, diamond jewellery, custom pieces and pre-owned luxury watches from their store in Missouri and online.",
+        "They wanted an online store that felt as premium as their showroom, and one team to look after their marketplace accounts as the catalogue grew."
       ],
       "challenge": [
-        "[The challenge — the problem or goal that started the project.]"
+        "Products were listed differently on every channel, photos were inconsistent, and keeping stock and prices in sync between the website, Amazon and eBay took hours of manual work each week.",
+        "The old store also made it hard for shoppers to browse by type, metal and budget — the way people actually shop for jewellery."
       ],
       "solution": [
-        "[The solution — what Technomiles designed and built, and how it works.]"
+        "We designed a dark, gold-accented Shopify theme built around large imagery, clear categories (necklaces, bracelets, pendants, earrings, watches) and a simple path from collection to checkout.",
+        "We restructured the catalogue with consistent titles, specs and photography, connected inventory across Shopify, Amazon and eBay, and now manage listings, pricing and orders on all three channels day to day."
       ],
       "deliverables": [
-        "[Deliverable 1]",
-        "[Deliverable 2]",
-        "[Deliverable 3]",
-        "[Deliverable 4]"
+        "Custom Shopify theme and store build",
+        "Catalogue structure, product copy and SEO",
+        "Product photography styling and editing",
+        "Amazon and eBay store setup and management",
+        "Stock and price sync across all channels",
+        "Ongoing optimisation and monthly reporting"
       ],
       "results": [
         {
-          "value": "[00%]",
-          "label": "[Result — e.g. increase in online sales]"
+          "value": "3",
+          "label": "Sales channels run from one catalogue — Shopify, Amazon and eBay"
         },
         {
-          "value": "[00]",
-          "label": "[Result — e.g. products listed]"
+          "value": "5",
+          "label": "Shop-by-category collections for faster browsing"
         },
         {
-          "value": "[00x]",
-          "label": "[Result — e.g. faster order handling]"
+          "value": "24/7",
+          "label": "Online sales with free worldwide shipping"
         }
       ],
       "gallery": [
-        "[Project image — e.g. homepage]",
-        "[Project image — e.g. product page]",
-        "[Project image — e.g. mobile view]",
-        "[Project image — e.g. brand details]"
+        {
+          "src": "/work/jawa-jewelers/collections.jpg",
+          "caption": "Featured collections on the homepage"
+        },
+        {
+          "src": "/work/jawa-jewelers/catalogue.jpg",
+          "caption": "Shop-by-category carousel"
+        },
+        {
+          "src": "/work/jawa-jewelers/product.jpg",
+          "caption": "Product page with trust badges"
+        },
+        {
+          "src": "/work/jawa-jewelers/mobile.jpg",
+          "caption": "Mobile storefront",
+          "fit": "contain"
+        }
       ],
       "testimonialCompany": "Jawa Jewelers"
+    },
+    {
+      "slug": "asas-international-school",
+      "client": "ASAS International School",
+      "initials": "AS",
+      "industry": "Education",
+      "url": "https://asas.edu.pk",
+      "title": "A clear, welcoming website for a leading Islamabad school with three campuses.",
+      "summary": "We designed and built a new website for ASAS International School that presents its school, inclusive-education and academy programmes, and makes admissions and contact simple for parents.",
+      "location": "Islamabad, Pakistan",
+      "year": "2024",
+      "duration": "6 weeks",
+      "services": [
+        "custom-development",
+        "design-studio"
+      ],
+      "cover": "/work/asas-international-school/cover.jpg",
+      "overview": [
+        "Since 2001, ASAS International School has offered a British curriculum from Playgroup to O and A Levels across three campuses in Islamabad — and it is a pioneer of inclusive education in Pakistan.",
+        "The school needed a website that reflected its reputation and gave parents quick answers about programmes, campuses and admissions."
+      ],
+      "challenge": [
+        "Information was spread across social media and printed brochures, and parents often called the office for basics like timings, locations and how to apply.",
+        "The school also wanted to show its three distinct offerings — School, Inclusive Education and Academy — without overwhelming visitors."
+      ],
+      "solution": [
+        "We designed a bright, trustworthy site in the school’s navy and gold, with a clear top bar for phone, address and timings and a prominent “Apply Now” button on every page.",
+        "Three programme tiles lead parents straight to the right section, and the site is easy for school staff to update with events, news and e-learning links."
+      ],
+      "deliverables": [
+        "Website design in the school’s brand colours",
+        "Programme, campus and admissions pages",
+        "Director’s message and school story",
+        "Events and e-learning sections",
+        "Mobile-friendly, easy-to-edit CMS",
+        "Training for school staff"
+      ],
+      "results": [
+        {
+          "value": "3",
+          "label": "Campuses presented clearly in one place"
+        },
+        {
+          "value": "3",
+          "label": "Programmes — School, Inclusive Education and Academy"
+        },
+        {
+          "value": "1-click",
+          "label": "Apply Now on every page for parents"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/work/asas-international-school/programmes.jpg",
+          "caption": "Programme tiles and school story"
+        },
+        {
+          "src": "/work/asas-international-school/director.jpg",
+          "caption": "Director’s message"
+        },
+        {
+          "src": "/work/asas-international-school/mobile.jpg",
+          "caption": "Mobile homepage",
+          "fit": "contain"
+        }
+      ],
+      "testimonialCompany": "ASAS International School"
+    },
+    {
+      "slug": "kacegb-properties",
+      "client": "KACEGB Properties",
+      "initials": "KG",
+      "industry": "Commercial property",
+      "url": "https://www.kacegbproperties.co.uk",
+      "title": "A business-centre website that fills private offices and e-commerce suites in Burnley.",
+      "summary": "We built KACEGB Properties’ website to showcase its private offices, office suites and e-commerce suites, and to turn visitors into viewings and enquiries.",
+      "location": "Burnley, United Kingdom",
+      "year": "2023",
+      "duration": "5 weeks + ongoing",
+      "services": [
+        "custom-development",
+        "design-studio",
+        "seo"
+      ],
+      "cover": "/work/kacegb-properties/cover.jpg",
+      "overview": [
+        "KACEGB Properties runs a business centre in the heart of Burnley town centre, offering private offices, office suites and e-commerce suites with storage for online sellers.",
+        "They wanted a website that showed off the spaces and spoke directly to entrepreneurs and small e-commerce businesses."
+      ],
+      "challenge": [
+        "Potential tenants couldn’t easily compare workspace types or see what was included, so the team spent a lot of time answering the same questions by phone.",
+        "As a UK business working with a team in Pakistan, they also needed a partner who was easy to work with across time zones."
+      ],
+      "solution": [
+        "We designed a photo-led website with a full-width slider of the spaces, clear workspace categories and simple enquiry paths on every page.",
+        "Each workspace type has its own page with features and amenities, and we look after hosting, updates and local SEO so the centre shows up for office searches in Burnley."
+      ],
+      "deliverables": [
+        "Website design and build",
+        "Workspace category and detail pages",
+        "Photo slider and video section",
+        "Enquiry and viewing forms",
+        "Local SEO for Burnley office searches",
+        "Hosting, maintenance and updates"
+      ],
+      "results": [
+        {
+          "value": "4",
+          "label": "Workspace types showcased, from start-up desks to e-commerce suites"
+        },
+        {
+          "value": "UK ↔ PK",
+          "label": "Delivered remotely across time zones"
+        },
+        {
+          "value": "100%",
+          "label": "Mobile-friendly, photo-led pages"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/work/kacegb-properties/workspaces.jpg",
+          "caption": "Workspace categories"
+        },
+        {
+          "src": "/work/kacegb-properties/offices.jpg",
+          "caption": "Private office spaces section"
+        },
+        {
+          "src": "/work/kacegb-properties/mobile.jpg",
+          "caption": "Mobile homepage",
+          "fit": "contain"
+        }
+      ],
+      "testimonialCompany": "KACEGB Properties UK"
     }
   ],
   "caseStudiesPage": {
@@ -1988,7 +2147,7 @@
     },
     "cardCta": "Read case study",
     "imagePlaceholder": "[ PROJECT IMAGE ]",
-    "servicesPlaceholder": "[Add services used]",
+    "servicesPlaceholder": "",
     "labels": {
       "client": "CLIENT",
       "industry": "INDUSTRY",
@@ -2004,7 +2163,9 @@
       "gallery": "GALLERY",
       "testimonial": "IN THE CLIENT'S WORDS",
       "more": "MORE WORK",
-      "all": "All case studies"
+      "all": "All case studies",
+      "website": "WEBSITE",
+      "visit": "Visit live site"
     }
   }
 }

@@ -9,7 +9,7 @@ import s from "./work.module.css";
 export function CaseStudyCard({ cs, featured = false, index }: { cs: CaseStudy; featured?: boolean; index?: number }) {
   return (
     <Link href={`/case-studies/${cs.slug}`} className={`${s.card} ${featured ? s.featured : ""}`} data-cur="view">
-      <CaseCover initials={cs.initials} className={s.cardCover} />
+      <CaseCover initials={cs.initials} src={cs.cover} alt={`${cs.client} website`} className={s.cardCover} />
       <div className={s.cardBody}>
         <div className={"mono " + s.cardMeta}>
           {index !== undefined && <span>{String(index + 1).padStart(2, "0")}</span>}

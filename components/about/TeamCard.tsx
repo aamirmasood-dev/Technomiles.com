@@ -21,7 +21,7 @@ export function TeamCard({ m, i, photoPlaceholder }: { m: TeamMember; i: number;
           <span className="disp tm-in" aria-hidden="true">
             {m.ini}
           </span>
-          <span className={"mono " + s.photo}>{photoPlaceholder}</span>
+          {photoPlaceholder && <span className={"mono " + s.photo}>{photoPlaceholder}</span>}
           <span className="tm-scan" aria-hidden="true" />
           <div className="tm-ov">
             <p className={s.bio}>{m.bio}</p>
