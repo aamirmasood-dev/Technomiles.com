@@ -5,11 +5,11 @@ import { SectionLabel } from "@/components/ui/SectionLabel";
 import { CaseStudyCard } from "@/components/work/CaseStudyCard";
 import s from "./work-section.module.css";
 
-/** Homepage "Selected work": latest case study featured, the next two below. */
+/** Homepage "Selected work": the two latest case studies side by side (the rest live on /case-studies). */
 export function WorkSection() {
   const copy = home.sections.work;
-  const [featured, ...rest] = caseStudies;
-  if (!featured) return null;
+  const shown = caseStudies.slice(0, 2);
+  if (shown.length === 0) return null;
   return (
     <section id="work" className={s.section} aria-labelledby="work-title">
       <div className={s.inner}>
@@ -25,18 +25,13 @@ export function WorkSection() {
             <ArrowLink href="/case-studies">{copy.link}</ArrowLink>
           </div>
         </div>
-        <div data-rv="scale">
-          <CaseStudyCard cs={featured} featured />
+        <div className={s.grid}>
+          {shown.map((cs, i) => (
+            <div key={cs.slug} data-rv="up" style={{ "--d": `${i * 0.1}s` } as CSSProperties}>
+              <CaseStudyCard cs={cs} />
+            </div>
+          ))}
         </div>
-        {rest.length > 0 && (
-          <div className={s.grid}>
-            {rest.slice(0, 2).map((cs, i) => (
-              <div key={cs.slug} data-rv="up" style={{ "--d": `${i * 0.1}s` } as CSSProperties}>
-                <CaseStudyCard cs={cs} />
-              </div>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   );

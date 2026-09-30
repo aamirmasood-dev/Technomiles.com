@@ -349,14 +349,15 @@ select.field option{background:var(--surface-2);color:var(--fg)}
 .h-meta{display:flex;align-items:center;gap:14px;font:500 12px var(--f-mono);letter-spacing:.2em;color:var(--muted)}
 .h-meta b{width:40px;height:1px;background:var(--red)}
 /* ---------- TESTIMONIAL STACK ---------- */
-.stack{position:relative;height:440px;perspective:1400px}
-.tcd{position:absolute;inset:0;box-sizing:border-box;padding:56px 64px;border-radius:32px;border:1px solid rgba(var(--ink),.1);background:var(--surface-2);display:flex;flex-direction:column;justify-content:space-between;gap:28px;transition:transform .9s cubic-bezier(.77,0,.18,1),opacity .7s,filter .7s;transform-origin:50% 100%}
+/* Cards share one grid cell, so the stack grows to fit the longest review (no fixed height). */
+.stack{position:relative;display:grid;min-height:440px;perspective:1400px}
+.tcd{grid-area:1/1;position:relative;box-sizing:border-box;padding:48px 56px;border-radius:32px;border:1px solid rgba(var(--ink),.1);background:var(--surface-2);display:flex;flex-direction:column;justify-content:space-between;gap:28px;transition:transform .9s cubic-bezier(.77,0,.18,1),opacity .7s,filter .7s;transform-origin:50% 100%}
 .tcd.p0{transform:none;z-index:5;opacity:1;box-shadow:0 60px 120px -50px rgba(0,0,0,.9)}
 .tcd.p1{transform:translate3d(0,-34px,-120px) scale(.94);z-index:4;opacity:.55;filter:blur(1px)}
 .tcd.p2{transform:translate3d(0,-64px,-240px) scale(.88);z-index:3;opacity:.3;filter:blur(2px)}
 .tcd.p3,.tcd.p4{transform:translate3d(0,-90px,-360px) scale(.82);z-index:2;opacity:0}
 .tcd.px{transform:translate3d(0,120px,100px) rotateX(-18deg) scale(1.02);z-index:6;opacity:0}
-.tcd .qt{font-family:var(--f-disp);font-size:30px;line-height:1.4;font-weight:400;color:var(--fg);margin:0}
+.tcd .qt{font-family:var(--f-disp);font-size:clamp(19px,1.1vw + 10px,24px);line-height:1.5;font-weight:400;color:var(--fg);margin:0}
 .tdots{display:flex;gap:10px}
 .tdot{all:unset;cursor:pointer;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 13px var(--f-disp);background:var(--surface-2);color:var(--dim);border:1px solid rgba(var(--ink),.1);transition:all .35s}
 .tdot:hover{border-color:var(--red);color:var(--fg-strong)}

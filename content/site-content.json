@@ -2002,6 +2002,201 @@
       "testimonialCompany": "Jawa Jewelers"
     },
     {
+      "slug": "kensingtons-bedding",
+      "client": "Kensingtons Bedding",
+      "initials": "KB",
+      "industry": "Luxury bedding retail",
+      "url": "https://kensingtonsbedding.co.uk",
+      "title": "A premium Shopify store for a UK bedding brand that has led on comfort since 1995.",
+      "summary": "We designed and built Kensingtons Bedding’s Shopify store — duvets, pillows, toppers and bed linen organised by tog, filling and season — with trust built into every page.",
+      "location": "Manchester, United Kingdom",
+      "year": "2024",
+      "duration": "7 weeks + ongoing",
+      "services": [
+        "ecommerce",
+        "design-studio",
+        "seo"
+      ],
+      "cover": "/work/kensingtons-bedding/cover.jpg",
+      "overview": [
+        "Kensingtons Luxury Bedding has sold duvets, pillows, mattress toppers and bed linen since 1995, from its Manchester showroom and across the UK.",
+        "They wanted an online store that matched the quality of their products and made it easy to choose the right duvet or pillow without visiting the showroom."
+      ],
+      "challenge": [
+        "Bedding is a considered purchase: shoppers compare tog ratings, fillings, firmness and sizes before they buy. The previous store made those comparisons hard, and key promises like free delivery and returns were easy to miss.",
+        "With a large catalogue of close variants, product pages also needed to stay clear and fast on mobile."
+      ],
+      "solution": [
+        "We built a clean Shopify theme in the Kensingtons purple with a trust bar right under the hero — Trustpilot rating, price-match guarantee, free delivery and returns, and “Comfort Leaders Since 1995”.",
+        "Collections are structured by tog, filling and season, category tiles lead into duvets, pillows and bed linen, and a “Trending This Week” carousel with tabs surfaces best sellers. Klarna, reviews and quick-add keep the path to checkout short."
+      ],
+      "deliverables": [
+        "Custom Shopify theme and store build",
+        "Catalogue structure by tog, filling and season",
+        "Trust bar and review integration",
+        "Klarna and quick-add checkout flow",
+        "Mobile-first product and collection pages",
+        "SEO, speed and ongoing optimisation"
+      ],
+      "results": [
+        {
+          "value": "4.6★",
+          "label": "Trustpilot rating shown front and centre"
+        },
+        {
+          "value": "30-day",
+          "label": "Free returns, highlighted at every step"
+        },
+        {
+          "value": "Since 1995",
+          "label": "Heritage story built into the brand experience"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/work/kensingtons-bedding/collections.jpg",
+          "caption": "Category tiles for duvets, pillows and bed linen"
+        },
+        {
+          "src": "/work/kensingtons-bedding/trending.jpg",
+          "caption": "“Trending This Week” product carousel"
+        },
+        {
+          "src": "/work/kensingtons-bedding/mobile.jpg",
+          "caption": "Mobile storefront with trust badges",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "slug": "raymat-textiles",
+      "client": "Raymat Textiles",
+      "initials": "RT",
+      "industry": "Home textiles & bedding",
+      "url": "https://www.raymattextiles.co.uk",
+      "title": "A deal-driven online store for a Manchester bedding supplier with a 25,000 sq ft warehouse.",
+      "summary": "We built Raymat Textiles’ Shopify store to sell duvets, pillows, toppers and bed linen nationwide, with promotions, departments and new arrivals front and centre.",
+      "location": "Radcliffe, Manchester, United Kingdom",
+      "year": "2024",
+      "duration": "6 weeks + ongoing",
+      "services": [
+        "ecommerce",
+        "design-studio",
+        "social-media-marketing"
+      ],
+      "cover": "/work/raymat-textiles/cover.jpg",
+      "overview": [
+        "Raymat Quilts & Textiles supplies household textiles and bedding from a 25,000 sq ft store and warehouse in Radcliffe, North Manchester — locally and nationwide online.",
+        "Because they import directly and buy from major UK importers, value is their edge. The website needed to sell that clearly without feeling cheap."
+      ],
+      "challenge": [
+        "With frequent offers and a wide range — from goose-down duvets to voile curtains — shoppers needed to find deals and departments quickly.",
+        "Promotions also had to be easy for the Raymat team to change week to week without developer help."
+      ],
+      "solution": [
+        "We designed a teal-branded Shopify store with a full-width offers slider, a visual “Shop by Department” row and promotional banners the team updates themselves.",
+        "New arrivals, featured products and the About story sit on the homepage, while a search-first header helps returning customers get straight to what they need."
+      ],
+      "deliverables": [
+        "Shopify store design and build",
+        "Offer slider and editable promo banners",
+        "Shop-by-department navigation",
+        "New arrivals and featured product sections",
+        "Wholesale and clearance sections",
+        "Social campaign creative for key offers"
+      ],
+      "results": [
+        {
+          "value": "6",
+          "label": "Shop-by-department categories on the homepage"
+        },
+        {
+          "value": "25,000 sq ft",
+          "label": "Warehouse range now available to order nationwide"
+        },
+        {
+          "value": "Free",
+          "label": "Standard UK delivery on every order"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/work/raymat-textiles/departments.jpg",
+          "caption": "Shop by department and promo banner"
+        },
+        {
+          "src": "/work/raymat-textiles/arrivals.jpg",
+          "caption": "New arrivals and brand story"
+        },
+        {
+          "src": "/work/raymat-textiles/mobile.jpg",
+          "caption": "Mobile homepage",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "slug": "gold-americas",
+      "client": "Gold Americas",
+      "initials": "GA",
+      "industry": "Gold jewellery e-commerce",
+      "title": "A clean, lifestyle-led gold jewellery store built to sell chains across the USA.",
+      "summary": "We designed and built Gold Americas’ online store for real gold necklaces, bracelets and rings — with lifestyle imagery, a low-price promise and fast, secure checkout.",
+      "location": "United States",
+      "year": "2023",
+      "duration": "6 weeks",
+      "services": [
+        "ecommerce",
+        "design-studio"
+      ],
+      "cover": "/work/gold-americas/cover.jpg",
+      "overview": [
+        "Gold Americas sells real gold jewellery — necklaces, bracelets, pendants, earrings and custom pieces — to customers across the United States.",
+        "They wanted a store that felt premium and modern, and that let shoppers browse chains by type, width and metal with confidence."
+      ],
+      "challenge": [
+        "Gold chains look alike in small thumbnails, so product photography, clear naming and price transparency were essential to build trust with first-time buyers.",
+        "The brand also needed a distinct look that stood apart from the crowded, discount-heavy jewellery market."
+      ],
+      "solution": [
+        "We created a dark, editorial theme with large lifestyle photography, simple category cards and a “Latest products” carousel showing sale and original prices side by side.",
+        "A men’s collection feature, clear free-shipping messaging and a short checkout complete the experience."
+      ],
+      "deliverables": [
+        "E-commerce store design and build",
+        "Lifestyle-led homepage and category cards",
+        "Product photography styling and editing",
+        "Latest products and sale pricing display",
+        "Men’s collection feature",
+        "Free-shipping and trust messaging"
+      ],
+      "results": [
+        {
+          "value": "5",
+          "label": "Jewellery categories, from necklaces to custom pieces"
+        },
+        {
+          "value": "Free",
+          "label": "Shipping across the USA, promoted site-wide"
+        },
+        {
+          "value": "Mobile-first",
+          "label": "Layouts for shoppers browsing on phones"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/work/gold-americas/products.jpg",
+          "caption": "Latest products with sale pricing"
+        },
+        {
+          "src": "/work/gold-americas/collections.jpg",
+          "caption": "Men’s collection feature and category lists"
+        }
+      ],
+      "testimonialCompany": "Gold Americas"
+    },
+    {
       "slug": "asas-international-school",
       "client": "ASAS International School",
       "initials": "AS",

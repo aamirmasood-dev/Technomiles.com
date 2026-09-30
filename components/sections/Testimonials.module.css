@@ -96,14 +96,14 @@
   }
   .stack {
     margin-top: 72px;
-    height: 400px;
+    min-height: 0;
   }
   .stack :global(.tcd) {
     padding: 32px 24px;
     border-radius: 24px;
   }
   .stack :global(.tcd .qt) {
-    font-size: 20px;
+    font-size: 17px;
   }
   .stack :global(.tcd > svg) {
     width: 44px;
